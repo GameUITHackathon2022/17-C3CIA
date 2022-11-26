@@ -9,13 +9,19 @@ import express from 'express';
 
 const t = initTRPC.create();
 
+// Database
+import { MongoClient } from 'mongodb';
+const database = new MongoClient(process.env.MONGODB_ENDPOINT ?? "");
+
+// API
+import register from './api/register';
+import isLoggedIn from './api/isLoggedIn';
+import login from './api/login';
+
 const appRouter = t.router({
-    ping: t.procedure
-        .input(z.never())
-        .output(z.number())
-        .query(() => {
-            return Date.now();
-        })
+    register: register(database, t),
+    isLoggedIn: isLoggedIn(database, t),
+    login: login(database, t)
 });
 
 export type AppRouter = typeof appRouter;
