@@ -30,3 +30,5 @@ const app = express();
 app.use("/api", trpcExpress.createExpressMiddleware({
     router: appRouter
 }));
+
+app.listen(process.env.PORT || 3000);
