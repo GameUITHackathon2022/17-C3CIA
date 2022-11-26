@@ -1,6 +1,6 @@
 [
     {
-        "type": "meet",
+        "type": "meat",
         "data": [
             {
                 "name": "Thịt bò",
@@ -33,6 +33,15 @@
                     "Calci": "18mg",
                     "Vitamin D": "7IU",
                     "Vitamin B12": "2,6µg"
+                },
+                "price": {
+                    "Thịt nạc vai bò ta": "87.000 VND/300g",
+                    "Thịt thăn bò ta": "85.000 VND/250g",
+                    "Thịt bắp bò ta": "82.000 VND/250g",
+                    "Thịt mông bò ta": "77.000 VND/250g",
+                    "Diềm thăn bò ta": "79.000 VND/ 250g",
+                    "Vai bò ta": "77.000 VND/250g",
+                    "Dẻ sườn bò ta": "62.250 VND/250g"
                 }
             },
             {
@@ -62,6 +71,11 @@
                     "Calci": "19mg",
                     "Vitamin D": "53IU",
                     "Vitamin B12": "0.7µg"
+                },
+                "price": {
+                    "Miền Bắc": "57.000 - 62.000 VND/kg",
+                    "Trung và Tây Nguyên": "55.000 - 61.000 VND/kg",
+                    "Miền Nam": "51.000 - 61.000 VND/kg"
                 }
             },
             {
@@ -89,6 +103,12 @@
                     "Calci": "15mg",
                     "Vitamin D": "2IU",
                     "Vitamin B12": "0,3µg"
+                },
+                "price": {
+                    "Gà ta thả vườn": "110.000 - 120.000 VND/1kg",
+                    "Gà ta bán buôn": "90.000 VND/1kg.",
+                    "Gà con giống gà ta vàng": "15.000 – 20.000 VND/1 con",
+                    "Gà ta vàng trống/mái": "150.000 VND/1kg"
                 }
             },
             {
@@ -119,6 +139,14 @@
                     "Calci": "17mg",
                     "Vitamin D": "0IU",
                     "Vitamin B12": "1,2µg"
+                },
+                "price": {
+                    "Sườn dê": "295.000 – 350.000 VND/kg",
+                    "Cần cổ dê": "220.000 - 250.000 VND/kg",
+                    "Đùi dê": "300.000 - 350.000 VND/kg",
+                    "Cật dê": "160.000 - 190.000 VND/kg",
+                    "Sườn dê rút xương": "360.0000 - 400.000 VND/kg",
+                    "Ngọc dương dê": "450.000 VND/kg"
                 }
             }
         ]
@@ -158,6 +186,10 @@
                     "Calci": "22mg",
                     "Vitamin D": "0IU",
                     "Vitamin B12": "0µg"
+                },
+                "price": {
+                    "Súp lơ xanh Vinmart": "40.000 - 50.000 VND/kg",
+                    "Súp lơ xanh Đà lạt": "68.000 - 75.000 VND/kg"
                 }
             },
             {
@@ -192,6 +224,10 @@
                     "Calci": "25mg",
                     "Vitamin D": "0IU",
                     "Vitamin B12": "0µg"
+                },
+                "price": {
+                    "Củ cải trắng tại vườn": "10.000 - 12.000 VND/kg",
+                    "Củ cải trắng tại chợ": "20.000 - 22.000 VND/kg"
                 }
             },
             {
@@ -219,7 +255,11 @@
                     "Calci": "36mg",
                     "Vitamin D": "0IU",
                     "Vitamin B12": "0µg"
-                }
+                },
+                "Xà lách mỹ": "35.000 VND/kg",
+                "Xà lách lô lô": "50.000 VND/kg",
+                "Xà lách cuộn tím đà lạt": "200.000 VND/kg",
+                "Xà lách rô men": "80.000 VND/kg"
             }
         ]
     },
@@ -258,7 +298,12 @@
                     "Calci": "6mg",
                     "Vitamin D": "0IU",
                     "Vitamin B12": "0µg"
-                }
+                },
+                "Táo đường": "8.000 VND/kg",
+                "Táo đá": "35.000 VND/kg",
+                "Táo tàu": "70.000 - 90.000 VND/kg",
+                "Táo hồng mini": "35.000 - 40.000 VND/kg",
+                "Táo cherry": "55.000 - 70.000 VND/kg"
             },
             {
                 "name": "Chuối",
@@ -287,7 +332,8 @@
                     "Calci": "5mg",
                     "Vitamin D": "0IU",
                     "Vitamin B12": "0µg"
-                }
+                },
+                "price": {}
             },
             {
                 "name": "Cam",
