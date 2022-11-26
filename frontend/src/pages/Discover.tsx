@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, styled, Typography, Checkbox, Box, IconButton } from '@mui/material';
-import { ListAlt } from '@mui/icons-material';
-import Data from '../data/data.json'
+import { ConstructionOutlined, ListAlt } from '@mui/icons-material';
+import Data from '../data/ingredient.json'
 
 interface IType {
     type: string;
@@ -11,6 +11,7 @@ interface IType {
 interface IData {
     name: string;
     section: string;
+    image: string;
     benefit: string[];
     nutrition: Object;
     price: Object;
@@ -22,7 +23,7 @@ let _filter = ["Thịt", "Rau củ", "Hoa quả"];
 const StyledDiscoverContainer = styled(Container)(
     ({ theme }) => ({
         display: "flex",
-        alignItems: "center",
+        flexDirection: "column",
         width: "100%"
     })
 );
@@ -31,21 +32,52 @@ const MenuFilter = styled(Box)(
     ({ theme }) => ({
         display: "flex",
         justifyContent: "center",
-        position: "relative",
-        boxShadow: "0 0 .5px .5px black"
+        position: "relative"
+    })
+)
+
+const Card = styled("div")(
+    ({ theme }) => ({
+        display: "flex",
+        width: "100%",
+        margin: "8px 0",
+        boxShadow: "0 .5px 0 .5px black"
+    })
+)
+
+const CardInfo = styled("div")(
+    ({ theme }) => ({
+        width: "100%",
+        display: "flex",
+        justifyContent: "center"
     })
 )
 
 export default class Discover extends Component {
     state = {
         filter: new Array(_filter.length).fill(true),
-        menu: false
+        menu: false,
+        sortFilter: []
+    }
+
+    sortArray = (filter?: boolean[]) => {
+        let _Arr: any[] = [];
+        filter?.map((e, i) => {
+            if (e) Data[i].data.forEach(e => _Arr.push(e))
+        })
+        _Arr = _Arr.sort((a, b) => b.view - a.view);
+        this.setState({ sortFilter: _Arr.slice(0, 10) })
+    }
+
+    componentDidMount(): void {
+        this.sortArray(this.state.filter);
     }
 
     handleChange = (event: any, index: number) => {
         const newFilter = [...this.state.filter];
         newFilter[index] = event.target.checked;
         this.setState({ filter: newFilter });
+        this.sortArray(newFilter);
     }
 
     render() {
@@ -72,12 +104,13 @@ export default class Discover extends Component {
                             >
                                 <Checkbox
                                     checked={this.state.filter[i]}
-                                    onChange={(evt) => this.handleChange(evt, i)}
+                                    onClick={(evt) => this.handleChange(evt, i)}
                                     size="small"
                                     sx={{
                                         p: "3px"
                                     }}
                                 />
+
                                 <Typography
                                     variant="body1"
                                     component="p"
@@ -91,12 +124,21 @@ export default class Discover extends Component {
                         ))}
                     </MenuFilter>
                 </div>
-                {Data.map((e: IType) => (
-                    <div>
-
-                    </div>
+                {this.state.sortFilter.map((e: IData) => (
+                    <Card key={e.name}>
+                        <img src={e.image} width="50px" height="50px" />
+                        <CardInfo>
+                            <Typography variant="body1">
+                                {e.name}
+                            </Typography>
+                            <Typography variant="body1">
+                                {e.section}
+                            </Typography>
+                        </CardInfo>
+                    </Card>
                 ))}
             </StyledDiscoverContainer>
         )
     }
 }
+
