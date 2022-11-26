@@ -1,0 +1,13 @@
+{
+    "extends": "@tsconfig/node18/tsconfig.json",
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "es2021",
+        "moduleResolution": "Node",
+        "outDir": "dist",
+        "resolveJsonModule": true,
+        "strict": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
