@@ -1,8 +1,22 @@
-:root {
+body {
+  margin: 0;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+#root {
   height: 100%;
 }
 
-body {
-  margin: 0;
+.app {
   height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  height: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  overflow-x: auto;
 }

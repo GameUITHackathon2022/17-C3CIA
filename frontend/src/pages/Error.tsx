@@ -1,36 +1,29 @@
-import React, { Component } from 'react'
-import { Container, styled, Typography } from '@mui/material'
-
-import Header from '../components/Header'
-import BottomNav from '../components/BottomNav'
+import React, { Component } from 'react';
+import { Container, styled, Typography } from '@mui/material';
 
 const StyledErrorContainer = styled(Container)(
     ({ theme }) => ({
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "calc(100% - 102px)"
+        textAlign: "center",
+        height: "100%"
     })
-)
+);
 
-type Props = {}
-
-type State = {}
-
-export default class Error extends Component<Props, State> {
-    state = {}
-
+export default class Error extends Component {
     render() {
         return (
-            <div className="App">
-                <Header />
-                <StyledErrorContainer>
-                    <Typography variant='h5'>
-                        ERROR NOT FOUND
+            <StyledErrorContainer>
+                <div>
+                    <Typography variant='h5' component='h5'>
+                        404: NOT FOUND
+                    </Typography><br />
+                    <Typography variant='body1'>
+                        Khu vực bạn đang tìm không tồn tại, có thể khu vực này đã bị xóa.
                     </Typography>
-                </StyledErrorContainer>
-                <BottomNav />
-            </div>
+                </div>
+            </StyledErrorContainer>
         )
     }
 }
