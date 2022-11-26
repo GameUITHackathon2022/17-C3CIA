@@ -18,7 +18,7 @@ const MainNav = styled(Box)(
     })
 )
 
-const Img = styled('img')(
+const ImgContainer = styled('div')(
     ({ theme }) => ({
         width: "100%",
         height: "30vw",
@@ -26,8 +26,17 @@ const Img = styled('img')(
             height: "270px"
         },
         [theme.breakpoints.up("md")]: {
-            height: "320px"
-        }
+            height: "300px"
+        },
+        overflow: "hidden",
+        marginBottom: "20px"
+    })
+)
+
+const Img = styled('img')(
+    ({ theme }) => ({
+        width: "100%",
+        height: "600px"
     })
 )
 
@@ -63,7 +72,9 @@ function App() {
 
     return (
         <Container>
-            <Img src='/banner.jpg' alt='banner' />
+            <ImgContainer>
+                <Img src='/banner.jpg' alt='banner' />
+            </ImgContainer>
             <Typography variant='h3' component="h3" textAlign="center">
                 FoodSave
             </Typography>

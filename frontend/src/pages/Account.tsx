@@ -1,3 +1,5 @@
+import { trpc } from '../trpc';
+
 import React, { Component } from 'react'
 import { Container, styled, Box, Grid, Typography, Button, TextField } from '@mui/material'
 
@@ -56,98 +58,110 @@ const Editable = styled(Typography)(
 
 type Props = {}
 
-type State = {
-    loggedIn: boolean
-}
+export default function Account(props: Props) {
+    let [loggedIn, setLoggedIn] = React.useState(!!globalThis.sessionStorage.getItem("loggedIn"));
 
-export default class Account extends Component<Props, State> {
-    state = {
-        loggedIn: Boolean(window.sessionStorage.getItem('login'))
+    // Input
+    let [username, setUsername] = React.useState("");
+    let [password, setPassword] = React.useState("");
+
+    // Output
+    let [error, setError] = React.useState("");
+
+    let login = async () => {
+        let res = await trpc.login.query({ username, password });
+        if (res) {
+            if (res.success) {
+                globalThis.localStorage.setItem("token", res.token!);
+                globalThis.sessionStorage.setItem("loggedIn", "1");
+                setLoggedIn(true);
+            } else {
+                setError(res.error!);
+            }
+        } else {
+            setError("Lỗi không xác định");
+        }
     }
 
-    login = () => {
-        sessionStorage.setItem("login", "1")
-        this.setState({ loggedIn: true })
+    let logout = () => {
+        sessionStorage.setItem("loggedIn", "");
     }
 
-    logout = () => {
-        sessionStorage.setItem("login", "")
-        this.setState({ loggedIn: false })
-    }
-
-    render() {
-        return this.state.loggedIn ?
-            (
-                <Container>
-                    <Grid container rowGap="20px">
-                        <Grid item xs={12} md={3}>
-                            <CenterItem>
-                                <Img src='https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png' alt='profile' />
-                            </CenterItem>
-                        </Grid>
-                        <Grid item xs={12} md={9}>
-                            <Typography variant='h6' component='h6' fontWeight="bold">
-                                nguyenvana1990@gmail.com
-                            </Typography>
-                            <Typography variant='caption'>
-                                nguyenvana1990
-                            </Typography>
-                        </Grid>
+    return loggedIn ?
+        (
+            <Container>
+                <Grid container rowGap="20px">
+                    <Grid item xs={12} md={3}>
+                        <CenterItem>
+                            <Img src='https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png' alt='profile' />
+                        </CenterItem>
                     </Grid>
+                    <Grid item xs={12} md={9}>
+                        <Typography variant='h6' component='h6' fontWeight="bold">
+                            nguyenvana1990@gmail.com
+                        </Typography>
+                        <Typography variant='caption'>
+                            nguyenvana1990
+                        </Typography>
+                    </Grid>
+                </Grid>
+                <hr />
+                <br />
+                <Box minHeight="40vh">
+                    <InLineInfo>
+                        <InfoTitle variant='body1' fontWeight="bold">
+                            Về bản thân:
+                        </InfoTitle>
+                        <Editable variant='body1'>
+                            Tôi họ Nguyễn tên là A
+                        </Editable>
+                    </InLineInfo>
+                    <InLineInfo>
+                        <InfoTitle variant='body1' fontWeight="bold">
+                            Tên:
+                        </InfoTitle>
+                        <Editable variant='body1'>
+                            Nguyễn Văn A
+                        </Editable>
+                    </InLineInfo>
+                    <InLineInfo>
+                        <InfoTitle variant='body1' fontWeight="bold">
+                            Tuổi:
+                        </InfoTitle>
+                        <Editable variant='body1'>
+                            22
+                        </Editable>
+                    </InLineInfo>
+                </Box>
+                <hr />
+                <CenterItem>
+                    <Button variant='outlined' onClick={() => logout()}>
+                        Logout
+                    </Button>
+                </CenterItem>
+            </Container>
+        ) : (
+            <Container>
+                <StyledForm onSubmit={() => login()}>
+                    <TextField
+                        required
+                        type="text"
+                        label="Username"
+                        value={username}
+                        onChange={(e) => setUsername(e.target.value)}
+                    />
+                    <TextField
+                        required
+                        type="password"
+                        label="Password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                    />
                     <hr />
-                    <br />
-                    <Box minHeight="40vh">
-                        <InLineInfo>
-                            <InfoTitle variant='body1' fontWeight="bold">
-                                Về bản thân:
-                            </InfoTitle>
-                            <Editable variant='body1'>
-                                Tôi họ Nguyễn tên là A
-                            </Editable>
-                        </InLineInfo>
-                        <InLineInfo>
-                            <InfoTitle variant='body1' fontWeight="bold">
-                                Tên:
-                            </InfoTitle>
-                            <Editable variant='body1'>
-                                Nguyễn Văn A
-                            </Editable>
-                        </InLineInfo>
-                        <InLineInfo>
-                            <InfoTitle variant='body1' fontWeight="bold">
-                                Tuổi:
-                            </InfoTitle>
-                            <Editable variant='body1'>
-                                22
-                            </Editable>
-                        </InLineInfo>
-                    </Box>
-                    <hr />
-                    <CenterItem>
-                        <Button variant='outlined' onClick={() => this.logout()}>
-                            Logout
-                        </Button>
-                    </CenterItem>
-                </Container>
-            ) : (
-                <Container>
-                    <StyledForm onSubmit={() => this.login()}>
-                        <TextField
-                            required
-                            type="email"
-                            label="email address"
-                        />
-                        <TextField
-                            required
-                            type="password"
-                            label="your password"
-                        />
-                        <hr />
-                        <Button type='submit' variant='outlined' onClick={() => this.login()}>
-                            Login
-                        </Button>
-                    </StyledForm>
-                </Container>
-            )
-    }
+                    <Button type='submit' variant='outlined' onClick={() => login()}>
+                        Login
+                    </Button>
+                </StyledForm>
+            </Container>
+        )
 }
