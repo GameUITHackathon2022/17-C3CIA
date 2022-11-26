@@ -5,7 +5,7 @@ import CalculateIcon from '@mui/icons-material/Calculate';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import PersonIcon from '@mui/icons-material/Person';
 
-import { useNavigate, NavigateFunction } from 'react-router-dom';
+import { useLocation, Location, useNavigate, NavigateFunction } from 'react-router-dom';
 
 const StyledNav = styled(Box)(
     ({ theme }) => ({
@@ -39,6 +39,7 @@ const IconButton = styled(MuiIconButton)(
 
 type Props = {
     navigate: NavigateFunction
+    location: Location
 }
 
 type State = {}
@@ -53,25 +54,49 @@ class CBottomNav extends Component<Props, State> {
     render() {
         return (
             <StyledNav>
-                <IconButton size='small' onClick={() => this.props.navigate("/home")}>
+                <IconButton
+                    color={
+                        (this.props.location.pathname == '/home' || this.props.location.pathname == "/") ?
+                            "inherit" : "default"
+                    }
+                    size='small'
+                    onClick={() => this.props.navigate("/home")}>
                     <HomeIcon />
                     <Typography variant='caption'>
                         Home
                     </Typography>
                 </IconButton>
-                <IconButton size='small' onClick={() => this.props.navigate("/calculator")}>
+                <IconButton
+                    color={
+                        this.props.location.pathname == '/calculator' ?
+                            "inherit" : "default"
+                    }
+                    size='small'
+                    onClick={() => this.props.navigate("/calculator")}>
                     <CalculateIcon />
                     <Typography variant='caption'>
                         Calculator
                     </Typography>
                 </IconButton>
-                <IconButton size='small' onClick={() => this.props.navigate("/discover")}>
+                <IconButton
+                    color={
+                        this.props.location.pathname == '/discover' ?
+                            "inherit" : "default"
+                    }
+                    size='small'
+                    onClick={() => this.props.navigate("/discover")}>
                     <LibraryBooksIcon />
                     <Typography variant='caption'>
                         Discover
                     </Typography>
                 </IconButton>
-                <IconButton size='small' onClick={() => this.props.navigate("/account")}>
+                <IconButton
+                    color={
+                        this.props.location.pathname == '/account' ?
+                            "inherit" : "default"
+                    }
+                    size='small'
+                    onClick={() => this.props.navigate("/account")}>
                     <PersonIcon />
                     <Typography variant='caption'>
                         Account
@@ -84,5 +109,6 @@ class CBottomNav extends Component<Props, State> {
 
 export default function BottomNav(): JSX.Element {
     const navigate = useNavigate()
-    return <CBottomNav navigate={navigate} />
+    const location = useLocation()
+    return <CBottomNav navigate={navigate} location={location} />
 }
