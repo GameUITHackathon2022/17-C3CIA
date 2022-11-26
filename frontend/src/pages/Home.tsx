@@ -34,7 +34,7 @@ function App() {
                 FoodSave
             </Typography>
             <Typography variant='caption' component="div" textAlign="center">
-                Chung tay bảo vệ môi trường và tiết kiệm thức ăn
+                Chung tay bảo vệ môi trường và tránh lãng phí thức ăn
             </Typography>
             <hr />
             <br />

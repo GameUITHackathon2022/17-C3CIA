@@ -9,12 +9,20 @@ const StyledHeader = styled(Box)(
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",
-        paddingInline: "15px",
+        paddingInline: "7px",
         position: "sticky",
         top: "0",
         height: "50px",
         backgroundColor: "#fff",
         borderBottom: "1px solid black"
+    })
+)
+
+const Logo = styled('img')(
+    ({ theme }) => ({
+        width: "24px",
+        height: "24px",
+        padding: "8px"
     })
 )
 
@@ -28,7 +36,7 @@ export default class Header extends Component<Props, State> {
     render() {
         return (
             <StyledHeader>
-                <RiceBowlIcon />
+                <Logo src='/logo.png' alt='logo' />
                 <IconButton>
                     <SearchIcon />
                 </IconButton>
