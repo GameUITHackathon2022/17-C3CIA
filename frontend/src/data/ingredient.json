@@ -44,7 +44,8 @@
                     "Vai bò ta": "77.000 VND/250g",
                     "Dẻ sườn bò ta": "62.250 VND/250g"
                 },
-                "view": 123
+                "view": 123,
+                "id": 1
             },
             {
                 "name": "Thịt lợn",
@@ -80,7 +81,8 @@
                     "Trung và Tây Nguyên": "55.000 - 61.000 VND/kg",
                     "Miền Nam": "51.000 - 61.000 VND/kg"
                 },
-                "view": 324
+                "view": 324,
+                "id": 2
             },
             {
                 "name": "Thịt gà",
@@ -115,7 +117,8 @@
                     "Gà con giống gà ta vàng": "15.000 – 20.000 VND/1 con",
                     "Gà ta vàng trống/mái": "150.000 VND/1kg"
                 },
-                "view": 543
+                "view": 543,
+                "id": 3
             },
             {
                 "name": "Thịt dê",
@@ -155,7 +158,8 @@
                     "Sườn dê rút xương": "360.0000 - 400.000 VND/kg",
                     "Ngọc dương dê": "450.000 VND/kg"
                 },
-                "view": 263
+                "view": 263,
+                "id": 4
             }
         ]
     },
@@ -200,7 +204,8 @@
                     "Súp lơ xanh Vinmart": "40.000 - 50.000 VND/kg",
                     "Súp lơ xanh Đà lạt": "68.000 - 75.000 VND/kg"
                 },
-                "view": 324
+                "view": 324,
+                "id": 5
             },
             {
                 "name": "Củ cải",
@@ -240,7 +245,8 @@
                     "Củ cải trắng tại vườn": "10.000 - 12.000 VND/kg",
                     "Củ cải trắng tại chợ": "20.000 - 22.000 VND/kg"
                 },
-                "view": 234
+                "view": 234,
+                "id": 6
             },
             {
                 "name": "Xà lách",
@@ -279,7 +285,8 @@
                     "Xà lách cuộn tím đà lạt": "200.000 VND/kg",
                     "Xà lách rô men": "80.000 VND/kg"
                 },
-                "view": 453
+                "view": 453,
+                "id": 7
             },
             {
                 "name": "Hành tây",
@@ -318,7 +325,8 @@
                     "Xà lách cuộn tím đà lạt": "200.000 VND/kg",
                     "Xà lách rô men": "80.000 VND/kg"
                 },
-                "view": 453
+                "view": 453,
+                "id": 8
             }
         ]
     },
@@ -366,7 +374,8 @@
                     "Táo hồng mini": "35.000 - 40.000 VND/kg",
                     "Táo cherry": "55.000 - 70.000 VND/kg"
                 },
-                "view": 453
+                "view": 453,
+                "id": 9
             },
             {
                 "name": "Chuối",
@@ -403,7 +412,8 @@
                     "Chuối cau": "9.000 - 10.000 VND/kg",
                     "Chuối sứ từ": "7.500 - 8.000 VND/kg"
                 },
-                "view": 321
+                "view": 321,
+                "id": 10
             },
             {
                 "name": "Cam",
@@ -445,7 +455,8 @@
                     "Cam vinh": "35.000 - 50.000 VND/kg",
                     "Cam sành": "35.000 - 45.000 VND/kg"
                 },
-                "view": 432
+                "view": 432,
+                "id": 11
             }
         ]
     },
@@ -477,7 +488,8 @@
                     "Vitamin B12": "0µg"
                 },
                 "price": {},
-                "view": 0
+                "view": 0,
+                "id": 12
             }
         ]
     }

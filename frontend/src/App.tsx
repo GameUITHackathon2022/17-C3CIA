@@ -12,6 +12,7 @@ import Error from './pages/Error';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Calculator from './pages/Calculator';
 
 // API
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
@@ -43,6 +44,7 @@ export default function App() {
                                 <Route path="/login" element={<Login />} />
                                 <Route path="/register" element={<Register />} />
                                 <Route path="/discover" element={<Discover />} />
+                                <Route path="/calculator" element={<Calculator />} />
                                 <Route path="*" element={<Error />} />
                             </Routes>
                         </div>
