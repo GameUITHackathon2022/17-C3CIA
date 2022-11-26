@@ -7,11 +7,20 @@ const Img = styled('img')(
     })
 )
 
+const CenterItem = styled('div')(
+    ({ theme }) => ({
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+    })
+)
+
 const ContactContainer = styled('div')(
     ({ theme }) => ({
         display: "flex",
-        flexDirection: "row",
+        flexDirection: "column",
         justifyContent: "space-between",
+        rowGap: "10px",
         alignItems: "center",
         width: "90%"
     })
@@ -20,7 +29,7 @@ const ContactContainer = styled('div')(
 function App() {
     return (
         <Container>
-            <Img src='/banner.jpg' />
+            <Img src='/banner.jpg' alt='banner' />
             <Typography variant='h3' component="h3" textAlign="center">
                 FoodSave
             </Typography>
@@ -32,17 +41,19 @@ function App() {
             <Typography variant='h6' component='h6' textAlign="center">
                 Contact us
             </Typography>
-            <ContactContainer>
-                <Button href='' variant="outlined" size="small">
-                    Facebook
-                </Button>
-                <Button href='' variant="outlined" size="small">
-                    Twitter
-                </Button>
-                <Button href='' variant="outlined" size="small">
-                    Linkedin
-                </Button>
-            </ContactContainer>
+            <CenterItem>
+                <ContactContainer>
+                    <Button href='' variant="outlined" size="small">
+                        Facebook
+                    </Button>
+                    <Button href='' variant="outlined" size="small">
+                        Twitter
+                    </Button>
+                    <Button href='' variant="outlined" size="small">
+                        Linkedin
+                    </Button>
+                </ContactContainer>
+            </CenterItem>
         </Container>
     )
 }
