@@ -1,5 +1,8 @@
-import React, { Component } from 'react'
-import { Container, styled, Box, Grid, Typography, Button, TextField } from '@mui/material'
+import ArrowDropDownCircleIcon from '@mui/icons-material/ArrowDropDownCircle';
+import { Box, Button, Container, Grid, styled, Typography } from '@mui/material';
+import { Component } from 'react';
+
+import { NavigateFunction, useNavigate } from 'react-router-dom';
 
 const Img = styled('img')(
     ({ theme }) => ({
@@ -14,15 +17,6 @@ const Img = styled('img')(
 )
 
 const CenterItem = styled('div')(
-    ({ theme }) => ({
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center"
-    })
-)
-
-const StyledForm = styled('form')(
     ({ theme }) => ({
         display: "flex",
         flexDirection: "column",
@@ -54,20 +48,68 @@ const Editable = styled(Typography)(
     })
 )
 
-type Props = {}
+const DropdownTitle = styled(Box)(
+    ({ theme }) => ({
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        width: "auto",
+        height: "50px",
+        border: ".5px solid black",
+        paddingInline: "10px",
+        marginBottom: "10px",
+        cursor: "pointer"
+    })
+)
+
+const DropdownInfo = styled(Box)(
+    ({ theme }) => ({
+        marginInline: "20px",
+        overflow: "scroll",
+        transition: "height .3s"
+    })
+)
+
+const DropdownEachCard = styled(Box)(
+    ({ theme }) => ({
+        paddingInline: "10px",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-start"
+    })
+)
+
+type Props = {
+    navigate: NavigateFunction
+}
 
 type State = {
     loggedIn: boolean
+    familyDropdown: boolean
+    historyDropdown: boolean
 }
 
-export default class Account extends Component<Props, State> {
-    state = {
-        loggedIn: Boolean(window.sessionStorage.getItem('login'))
+class CAccount extends Component<Props, State> {
+    constructor(props: Props) {
+        super(props)
     }
 
-    login = () => {
-        sessionStorage.setItem("login", "1")
-        this.setState({ loggedIn: true })
+    state = {
+        loggedIn: Boolean(window.sessionStorage.getItem('login')),
+        familyDropdown: false,
+        historyDropdown: false
+    }
+
+    componentDidMount(): void {
+        if (!this.state.loggedIn) {
+            this.props.navigate('/login')
+        }
+    }
+
+    componentDidUpdate(prevProps: Readonly<Props>, prevState: Readonly<State>, snapshot?: any): void {
+        if (!this.state.loggedIn) {
+            this.props.navigate('/login')
+        }
     }
 
     logout = () => {
@@ -96,7 +138,7 @@ export default class Account extends Component<Props, State> {
                     </Grid>
                     <hr />
                     <br />
-                    <Box minHeight="40vh">
+                    <Box minHeight="100px">
                         <InLineInfo>
                             <InfoTitle variant='body1' fontWeight="bold">
                                 Về bản thân:
@@ -113,15 +155,61 @@ export default class Account extends Component<Props, State> {
                                 Nguyễn Văn A
                             </Editable>
                         </InLineInfo>
-                        <InLineInfo>
-                            <InfoTitle variant='body1' fontWeight="bold">
-                                Tuổi:
-                            </InfoTitle>
-                            <Editable variant='body1'>
-                                22
-                            </Editable>
-                        </InLineInfo>
                     </Box>
+                    <DropdownTitle onClick={() => this.setState({ familyDropdown: !this.state.familyDropdown })}>
+                        <Typography variant='body1' fontFamily="bold">
+                            Thông tin gia đình
+                        </Typography>
+                        <ArrowDropDownCircleIcon
+                            style={{
+                                transform: this.state.familyDropdown ? "rotate(0)" : "rotate(-90deg)",
+                                transition: "all .3s"
+                            }}
+                        />
+                    </DropdownTitle>
+                    <DropdownInfo
+                        height={this.state.familyDropdown ? "200px" : "0px"}
+                    >
+                        <DropdownEachCard>
+                            <Typography variant='h6' component="h6">
+                                Bản thân
+                            </Typography>
+                            <Typography variant='caption'>
+                                Tuổi: 22, Chiều Cao: 167 cm, Cân Nặng: 55 kg
+                            </Typography>
+                        </DropdownEachCard>
+                        <DropdownEachCard>
+                            <Typography variant='h6' component="h6">
+                                Nguyễn Văn B
+                            </Typography>
+                            <Typography variant='caption'>
+                                Tuổi: 23, Chiều Cao: 167 cm, Cân Nặng: 55 kg
+                            </Typography>
+                        </DropdownEachCard>
+                    </DropdownInfo>
+                    <DropdownTitle onClick={() => this.setState({ historyDropdown: !this.state.historyDropdown })}>
+                        <Typography variant='body1' fontFamily="bold">
+                            Lịch sử
+                        </Typography>
+                        <ArrowDropDownCircleIcon
+                            style={{
+                                transform: this.state.historyDropdown ? "rotate(0)" : "rotate(-90deg)",
+                                transition: "all .3s"
+                            }}
+                        />
+                    </DropdownTitle>
+                    <DropdownInfo
+                        height={this.state.historyDropdown ? "200px" : "0px"}
+                    >
+                        <DropdownEachCard>
+                            <Typography variant='h6' component="h6">
+                                22/10/2022
+                            </Typography>
+                            <Typography variant='caption'>
+                                Thực đơn: gà nướng muối ớt
+                            </Typography>
+                        </DropdownEachCard>
+                    </DropdownInfo>
                     <hr />
                     <CenterItem>
                         <Button variant='outlined' onClick={() => this.logout()}>
@@ -129,25 +217,12 @@ export default class Account extends Component<Props, State> {
                         </Button>
                     </CenterItem>
                 </Container>
-            ) : (
-                <Container>
-                    <StyledForm onSubmit={() => this.login()}>
-                        <TextField
-                            required
-                            type="email"
-                            label="email address"
-                        />
-                        <TextField
-                            required
-                            type="password"
-                            label="your password"
-                        />
-                        <hr />
-                        <Button type='submit' variant='outlined' onClick={() => this.login()}>
-                            Login
-                        </Button>
-                    </StyledForm>
-                </Container>
-            )
+            ) : null
     }
+}
+
+
+export default function Account(): JSX.Element {
+    const navigate = useNavigate()
+    return <CAccount navigate={navigate} />
 }

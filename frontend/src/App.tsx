@@ -1,21 +1,23 @@
 const API_SERVER = "http://localhost:3000/api";
 
-import Header from './components/Header';
 import BottomNav from './components/BottomNav';
+import Header from './components/Header';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // Page
-import Home from './pages/Home';
 import Account from './pages/Account';
-import Error from './pages/Error';
 import Discover from './pages/Discover';
+import Error from './pages/Error';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Register from './pages/Register';
 
 // API
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { httpBatchLink } from '@trpc/client';
-import { trpc } from './trpc';
 import { useState } from 'react';
+import { trpc } from './trpc';
 
 export default function App() {
     const [queryClient] = useState(() => new QueryClient());
@@ -40,6 +42,8 @@ export default function App() {
                                 <Route index element={<Home />} />
                                 <Route path="/home" element={<Home />} />
                                 <Route path="/account" element={<Account />} />
+                                <Route path="/login" element={<Login />} />
+                                <Route path="/register" element={<Register />} />
                                 <Route path="/discover" element={<Discover />}></Route>
                                 <Route path="*" element={<Error />} />
                             </Routes>

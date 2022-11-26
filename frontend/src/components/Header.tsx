@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
-import { useNavigate, NavigateFunction } from 'react-router-dom';
-import { Box, styled, IconButton } from '@mui/material'
-import RiceBowlIcon from '@mui/icons-material/RiceBowl';
-import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
+import SearchIcon from '@mui/icons-material/Search';
+import { Box, IconButton, styled } from '@mui/material';
+import { Component } from 'react';
+import { NavigateFunction, useNavigate } from 'react-router-dom';
 
 const StyledHeader = styled(Box)(
     ({ theme }) => ({

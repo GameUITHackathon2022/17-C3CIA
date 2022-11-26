@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
-import { Box, styled, IconButton as MuiIconButton, Typography } from '@mui/material'
-import HomeIcon from '@mui/icons-material/Home';
 import CalculateIcon from '@mui/icons-material/Calculate';
+import HomeIcon from '@mui/icons-material/Home';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import PersonIcon from '@mui/icons-material/Person';
+import { Box, IconButton as MuiIconButton, styled, Typography } from '@mui/material';
+import { Component } from 'react';
 
-import { useLocation, Location, useNavigate, NavigateFunction } from 'react-router-dom';
+import { Location, NavigateFunction, useLocation, useNavigate } from 'react-router-dom';
 
 const StyledNav = styled(Box)(
     ({ theme }) => ({

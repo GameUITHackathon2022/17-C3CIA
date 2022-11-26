@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
 import { Container, styled, Typography } from '@mui/material';
+import { Component } from 'react';
 
 const StyledErrorContainer = styled(Container)(
     ({ theme }) => ({
