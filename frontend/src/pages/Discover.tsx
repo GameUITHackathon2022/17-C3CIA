@@ -39,9 +39,11 @@ const MenuFilter = styled(Box)(
 const Card = styled("div")(
     ({ theme }) => ({
         display: "flex",
-        width: "100%",
+        gap: "20px",
+        width: "auto",
         margin: "8px 0",
-        boxShadow: "0 .5px 0 .5px black"
+        boxShadow: "0 .5px 0 .5px black",
+        padding: "10px"
     })
 )
 
@@ -49,6 +51,7 @@ const CardInfo = styled("div")(
     ({ theme }) => ({
         width: "100%",
         display: "flex",
+        flexDirection: "column",
         justifyContent: "center"
     })
 )
@@ -126,9 +129,14 @@ export default class Discover extends Component {
                 </div>
                 {this.state.sortFilter.map((e: IData) => (
                     <Card key={e.name}>
-                        <img src={e.image} width="50px" height="50px" />
+                        <img
+                            src={e.image}
+                            width="100px"
+                            height="100px"
+                            alt={e.name}
+                        />
                         <CardInfo>
-                            <Typography variant="body1">
+                            <Typography variant="h5" component="h5">
                                 {e.name}
                             </Typography>
                             <Typography variant="body1">
