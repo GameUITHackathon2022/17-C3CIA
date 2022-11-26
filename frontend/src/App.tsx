@@ -17,23 +17,21 @@ import Register from './pages/Register';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { httpBatchLink } from '@trpc/client';
 import { useState } from 'react';
-import { trpc } from './trpc';
+import { trpcReact, TARGET } from './trpc';
 
 export default function App() {
     const [queryClient] = useState(() => new QueryClient());
-    const [trpcClient] = useState(() =>
-        trpc.createClient({
-            links: [
-                httpBatchLink({
-                    url: API_SERVER
-                }),
-            ],
-        }),
-    );
+    const [trpcClient] = useState(() => trpcReact.createClient({
+        links: [
+            httpBatchLink({
+                url: TARGET,
+            })
+        ]
+    }));
 
     return (
         <div className="app">
-            <trpc.Provider client={trpcClient} queryClient={queryClient}>
+            <trpcReact.Provider client={trpcClient} queryClient={queryClient}>
                 <QueryClientProvider client={queryClient}>
                     <Router>
                         <Header />
@@ -44,14 +42,14 @@ export default function App() {
                                 <Route path="/account" element={<Account />} />
                                 <Route path="/login" element={<Login />} />
                                 <Route path="/register" element={<Register />} />
-                                <Route path="/discover" element={<Discover />}></Route>
+                                <Route path="/discover" element={<Discover />} />
                                 <Route path="*" element={<Error />} />
                             </Routes>
                         </div>
                         <BottomNav />
                     </Router>
                 </QueryClientProvider>
-            </trpc.Provider>
+            </trpcReact.Provider>
         </div>
     )
 }

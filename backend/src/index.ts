@@ -4,7 +4,6 @@ dotenv.config();
 import { initTRPC } from '@trpc/server';
 import * as trpcExpress from '@trpc/server/adapters/express';
 
-import { z } from 'zod';
 import express from 'express';
 
 const t = initTRPC.create();
@@ -14,9 +13,9 @@ import { MongoClient } from 'mongodb';
 const database = new MongoClient(process.env.MONGODB_ENDPOINT ?? "");
 
 // API
-import register from './api/register';
-import isLoggedIn from './api/isLoggedIn';
-import login from './api/login';
+import register from './api/register.js';
+import isLoggedIn from './api/isLoggedIn.js';
+import login from './api/login.js';
 
 const appRouter = t.router({
     register: register(database, t),
@@ -30,3 +29,5 @@ const app = express();
 app.use("/api", trpcExpress.createExpressMiddleware({
     router: appRouter
 }));
+
+app.listen(process.env.PORT || 3000);
