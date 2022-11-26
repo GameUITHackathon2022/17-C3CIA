@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Box, styled, IconButton } from '@mui/material'
+import { Box, styled, IconButton, Typography } from '@mui/material'
 import HomeIcon from '@mui/icons-material/Home';
 import CalculateIcon from '@mui/icons-material/Calculate';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
@@ -51,7 +51,7 @@ class CBottomNav extends Component<Props, State> {
                 <IconButton size='small' onClick={() => this.props.navigate("/account")}>
                     <PersonIcon />
                 </IconButton>
-            </StyledNav>
+            </StyledNav >
         )
     }
 }
