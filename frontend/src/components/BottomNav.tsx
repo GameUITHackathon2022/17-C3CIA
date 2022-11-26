@@ -18,7 +18,13 @@ const StyledNav = styled(Box)(
         bottom: "0",
         height: "50px",
         backgroundColor: "#fff",
-        borderTop: "1px solid black"
+        borderTop: "1px solid black",
+        [theme.breakpoints.up("sm")]: {
+            height: "70px"
+        },
+        [theme.breakpoints.up("lg")]: {
+            display: "none"
+        }
     })
 )
 

@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
+import { useNavigate, NavigateFunction } from 'react-router-dom';
 import { Box, styled, IconButton } from '@mui/material'
 import RiceBowlIcon from '@mui/icons-material/RiceBowl';
 import SearchIcon from '@mui/icons-material/Search';
+import PersonIcon from '@mui/icons-material/Person';
 
 const StyledHeader = styled(Box)(
     ({ theme }) => ({
@@ -14,7 +16,10 @@ const StyledHeader = styled(Box)(
         top: "0",
         height: "50px",
         backgroundColor: "#fff",
-        borderBottom: "1px solid black"
+        borderBottom: "1px solid black",
+        [theme.breakpoints.up("sm")]: {
+            height: "70px"
+        }
     })
 )
 
@@ -26,21 +31,49 @@ const Logo = styled('img')(
     })
 )
 
-type Props = {}
+type Props = {
+    navigate: NavigateFunction
+}
 
 type State = {}
 
-export default class Header extends Component<Props, State> {
+class CHeader extends Component<Props, State> {
+    constructor(props: Props) {
+        super(props)
+    }
+
     state = {}
 
     render() {
         return (
             <StyledHeader>
-                <Logo src='/logo.png' alt='logo' />
-                <IconButton>
-                    <SearchIcon />
+                <IconButton onClick={() => this.props.navigate('/home')}>
+                    <Logo src='/logo.png' alt='logo' />
                 </IconButton>
+                <div>
+
+                    <IconButton>
+                        <SearchIcon />
+                    </IconButton>
+                    <IconButton
+                        sx={(theme) => ({
+                            display: "none",
+                            [theme.breakpoints.up("lg")]: {
+                                display: "inline-block"
+                            }
+                        })}
+                        onClick={() => this.props.navigate('/account')}
+                    >
+                        <PersonIcon />
+                    </IconButton>
+                </div>
             </StyledHeader>
         )
     }
+}
+
+
+export default function Header(): JSX.Element {
+    const navigate = useNavigate()
+    return <CHeader navigate={navigate} />
 }
