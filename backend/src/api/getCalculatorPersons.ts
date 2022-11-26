@@ -16,7 +16,8 @@ export default function getCalculatorPersons(database: MongoClient, t: TRPCBuild
                     month: z.number(),
                     day: z.number(),
                     height: z.number(),
-                    weight: z.number()
+                    weight: z.number(),
+                    gender: z.enum(["MALE", "FEMALE"])
                 })))
             })
         )
@@ -46,7 +47,8 @@ export default function getCalculatorPersons(database: MongoClient, t: TRPCBuild
                     month: number,
                     day: number,
                     height: number,
-                    weight: number
+                    weight: number,
+                    gender: "MALE" | "FEMALE"
                 }[]
             }>('persons').findOne({
                 username: session.username
