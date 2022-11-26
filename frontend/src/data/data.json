@@ -1,0 +1,375 @@
+[
+    {
+        "type": "meat",
+        "data": [
+            {
+                "name": "Thịt bò",
+                "section": "Thịt bò là một trong những thực phẩm có giá trị dinh dưỡng cao và có chứa nhiều amino acid cần thiết, các chất béo, chất khoáng, vitamin",
+                "benefit": [
+                    "Protein trong thịt bò chính là một trong những nguồn dưỡng chất giúp cơ thể khỏe mạnh, bảo đảm cho xương chắc khỏe và phát triển các hormon có lợi cho cơ thể, giúp chuyển hóa và tổng hợp thức ăn, góp phần phục hồi cơ thể sau khi những hoạt động cường độ cao. Thịt bò, nhất là bắp bò rất giàu axit amonia, cao hơn cả so với bất kì loại thực phẩm nào khác, có tác dụng làm tăng cơ bắp, đặc biệt là tăng cường sức khỏe cơ thể.",
+                    "Thịt bò có khoáng chất carnitine và nồng độ sarcosine (một chất có liên quan đến ung thư) rất thấp. Khoáng chất carnitin có trong các loại thịt màu đỏ như thịt bò rất cần thiết cho sự cân bằng của các hoạt động của tai. Carnitine được sử dụng chủ yếu để hỗ trợ quá trình chuyển hóa chất béo, chuỗi amino acid để giữ cho cơ thể được cân đối, các amino acid rất tốt trong việc tạo các cơ bắp.",
+                    "Hàm lượng acid béo trong thịt bò thấp nhưng lại giàu axit linoleic tổng hợp, có hiệu quả chống lại các chất chống oxy hóa có khả năng phát tác khi tập các môn thể thao như cử tạ gây tổn thương mô. Chất béo có trong thịt bò rất giàu linoleic và palmiotelic, hai loại axit đặc biệt giúp con người chống lại căn bệnh ung thư, các loại vi rút và mầm bệnh.",
+                    "Thịt bò cũng rất giàu sắt, kali, magiê và kẽm: Sắt là khoáng chất cần thiết cho máu, bổ sung lượng máu cho cơ thể và phòng tránh cơ thể bị thiếu máu. Mức độ kali thấp ức chế tổng hợp protein cũng như sản xuất hormone tăng trưởng, sẽ ảnh hưởng đến sự phát triển của cơ bắp. Magnesi và kẽm góp phần tổng hợp protein và chất chống oxy hóa để thúc đẩy tăng trưởng cơ bắp. Muối của axit glutamic và vitamin B6 và kẽm tương tác với nhau tăng cường hệ thống miễn dịch và quan trọng hơn có thể làm tăng hiệu quả của sự trao đổi chất insulin.",
+                    "Thịt bò rất giàu vitamin B6: Thịt bò có chứa đủ vitamin B6 có thể giúp bạn xây dựng khả năng miễn dịch.",
+                    "Thịt bò chứa nhiều vitamin B12, cần thiết cho các tế bào, nhất là các tế bào máu đỏ mang oxy đến các mô cơ. Vitamin B12 cũng thúc đẩy nhánh chuỗi amino acid chuyển hóa, do đó cung cấp năng lượng cần thiết cho cơ thể trong những hoạt động cường độ cao."
+                ],
+                "nutrition": {
+                    "Giá trị dinh dưỡng": "100g",
+                    "Calo (kcal)": "250",
+                    "Lipid": "15g",
+                    "Chất béo bão hoà": "6g",
+                    "Chất béo chuyển hoá": "1,1g",
+                    "Cholesterol": "90mg",
+                    "Natri": "72mg",
+                    "Kali": "318mg",
+                    "Cacbohydrat": "0g",
+                    "Chất xơ": "0g",
+                    "Đường": "0g",
+                    "Protein": "26g",
+                    "Vitamin C": "0mg",
+                    "Sắt": "2,6mg",
+                    "Vitamin B6": "0.4mg",
+                    "Magnesi": "21mg",
+                    "Calci": "18mg",
+                    "Vitamin D": "7IU",
+                    "Vitamin B12": "2,6µg"
+                },
+                "price": {
+                    "Thịt nạc vai bò ta": "87.000 VND/300g",
+                    "Thịt thăn bò ta": "85.000 VND/250g",
+                    "Thịt bắp bò ta": "82.000 VND/250g",
+                    "Thịt mông bò ta": "77.000 VND/250g",
+                    "Diềm thăn bò ta": "79.000 VND/ 250g",
+                    "Vai bò ta": "77.000 VND/250g",
+                    "Dẻ sườn bò ta": "62.250 VND/250g"
+                }
+            },
+            {
+                "name": "Thịt lợn",
+                "section": "Thịt lợn hay thịt heo là thịt từ heo, là một loại thực phẩm rất phổ biến trên thế giới, tiêu thụ thịt heo của người Việt chiếm tới 73,3%, thịt gia cầm là 17,5% và chỉ 9,2% còn lại là thịt các loại, điều này xuất phát từ truyền thống ẩm thực của người Việt thường ăn thịt heo và thịt gà nhiều hơn các loại thịt khác.",
+                "benefit": [
+                    "Thịt lợn chứa hàm lượng protein cao cùng nhiều vitamin và khoáng chất. Thịt lợn nạc là một thực phẩm tuyệt vời cho chế độ ăn uống lành mạnh. Nó chứa tất cả các amino acid thiết yếu cho sự tăng trưởng và duy trì cơ thể khỏe mạnh. Mỡ lợn đôi khi được sử dụng như là một chất béo trong nấu ăn. Giống như các loại thịt đỏ, thịt lợn chủ yếu gồm các chất béo bão hòa và chất béo không bão hòa với hàm lượng tương đương nhau.Vitamin B12 trong thịt lợn rất quan trọng cho sự hình thành máu và chức năng của não. Thiếu hụt vitamin B12 có thể gây thiếu máu và tổn hại đến tế bào thần kinh. Vitamin B6 quan trọng đối với sự hình thành của các tế bào máu đỏ.",
+                    "Thịt lợn đặc biệt giàu thiamin, một trong những vitamin nhóm B đóng một vai trò thiết yếu trong các chức năng của cơ thể. Thịt lợn cũng chứa nhiều selenium, kẽm là chất cần thiết cho một bộ não và hệ thống miễn dịch khỏe mạnh.Creatine trong thịt là một nguồn năng lượng cho cơ bắp. Nhiều nghiên cứu chỉ ra rằng nó có thể cải thiện sự tăng trưởng và duy trì cơ bắp.Vitamin B3 rất quan trọng cho sự tăng trưởng và chuyển hóa. Phosphor cần thiết cho sự tăng trưởng và duy trì cơ thể khỏe mạnh.",
+                    "Thịt lợn cũng được xem là một nguồn cung cấp sắt dồi dàoTaurine được tìm thấy trong cá và thịt, taurine là một amino acid chống oxy hóa, có vai trò quan trọng đối với tim và các chức năng cơ bắp.Carnosine là một chất rất quan trọng cho chức năng cơ bắp. Mức độ arnosine trong cơ bắp của con người liên quan tới việc giảm mệt mỏi và cải thiện hiệu suất lao động.Thịt lợn có chứa nhiều chất dinh dưỡng lành mạnh có lợi cho cơ bắp bao gồm ưtaurie, creatine, và beta-alanine. Beta-alanine là một amino acid, được sử dụng để sản xuất carnosine trong cơ thể."
+                ],
+                "nutrition": {
+                    "Giá trị dinh dưỡng": "100g",
+                    "Calo (kcal)": "242",
+                    "Lipid": "14g",
+                    "Chất béo bão hoà": "5g",
+                    "Cholesterol": "80mg",
+                    "Natri": "620mg",
+                    "Kali": "423mg",
+                    "Cacbohydrat": "0g",
+                    "Chất xơ": "0g",
+                    "Đường": "0g",
+                    "Protein": "27g",
+                    "Vitamin C": "0,6mg",
+                    "Sắt": "0,9mg",
+                    "Vitamin B6": "0,5mg",
+                    "Magnesi": "28mg",
+                    "Calci": "19mg",
+                    "Vitamin D": "53IU",
+                    "Vitamin B12": "0.7µg"
+                },
+                "price": {
+                    "Miền Bắc": "57.000 - 62.000 VND/kg",
+                    "Trung và Tây Nguyên": "55.000 - 61.000 VND/kg",
+                    "Miền Nam": "51.000 - 61.000 VND/kg"
+                }
+            },
+            {
+                "name": "Thịt gà",
+                "section": "Thịt gà là thực phẩm gia cầm phổ biến nhất trên thế giới. Do có chi phí thấp và dễ chăn nuôi hơn so với các động vật khác như trâu bò hoặc lợn, nên gà đã trở thành loại thực phẩm không thể thiếu trong ẩm thực của nhiều nền văn hóa trên thế giới, và thịt của chúng đã được biến tấu để phù hợp với khẩu vị của từng khu",
+                "benefit": [
+                    "Thịt gà có nhiều phần nạc và tương đối ít mỡ, nên chứa một hàm lượng protein cao và đa dạng. Chính vì vậy, bổ sung các món ăn từ gà vào thực đơn hàng ngày sẽ mang lại cho người tiêu dùng nhiều lợi ích về sức khỏe, từ phát triển cơ bắp cho đến giảm cân hiệu quả. Ăn thịt gà có thể giúp mang tới một hàm răng và xương chắc khỏe. Bởi trong thịt gà có rất nhiều Phosphor – chất có lợi cho răng và xương. Ngoài ra, chất này còn góp phần đảm bảo các chức năng của các bộ phận như thận, gan, thần kinh trung ương,… giúp chúng hoạt động tốt hơn. Đây là một trong những thành phần chính có trong thịt gà. Khoáng chất này rất cần thiết trong việc trao đổi chất trong cơ thể. Nhờ đó, tuyến giáp được cải thiện tốt và hoạt động tốt hơn, giúp tăng cường hệ miễn dịch trong cơ thể. Ngoài ra, trong thịt gà còn chứa một hàm lượng amino acid được gọi là tryptophan. Chất này có tác dụng làm dịu hệ thần kinh căng thẳng sau một ngày làm việc vất vả, cũng như mang lại giấc ngủ ngon."
+                ],
+                "nutrition": {
+                    "Giá trị dinh dưỡng": "100g",
+                    "Calo (kcal)": "239",
+                    "Lipid": "14g",
+                    "Chất béo bão hoà": "3,8g",
+                    "Cholesterol": "88mg",
+                    "Natri": "82mg",
+                    "Kali": "223mg",
+                    "Cacbohydrat": "0g",
+                    "Chất xơ": "0g",
+                    "Đường": "0g",
+                    "Protein": "27g",
+                    "Vitamin C": "0mg",
+                    "Sắt": "1,3mg",
+                    "Vitamin B6": "0,4mg",
+                    "Magnesi": "23mg",
+                    "Calci": "15mg",
+                    "Vitamin D": "2IU",
+                    "Vitamin B12": "0,3µg"
+                },
+                "price": {
+                    "Gà ta thả vườn": "110.000 - 120.000 VND/1kg",
+                    "Gà ta bán buôn": "90.000 VND/1kg.",
+                    "Gà con giống gà ta vàng": "15.000 – 20.000 VND/1 con",
+                    "Gà ta vàng trống/mái": "150.000 VND/1kg"
+                }
+            },
+            {
+                "name": "Thịt dê",
+                "section": "Thịt dê là loại thịt thực phẩm từ loài dê nhà, đây là nguồn cung cấp thực phẩm quan trọng và phổ biến ở một số đất nước như Bangladesh, Nepal, Sri Lanka, Pakistan, Ấn Độ và một số vùng ở Việt Nam, thịt dê được cho là một loại thực phẩm bổ dưỡng và có công dụng trong việc tăng cường khả năng sinh lý.",
+                "benefit": [
+                    "Thịt dê có mùi vị thơm ngon, có tác dụng bổ dưỡng, giữ ấm rất tốt, rất thích hợp ăn trong mùa lạnh Nhìn chung, thịt dê có tác dụng thúc đẩy lưu thông máu, tăng thân nhiệt, có ích trong chữa trị bệnh lao, viêm phế quản, hen suyễn. Các món ăn bổ dưỡng dễ chế biến như cháo, thịt dê hầm tỏi, thịt dê hầm cà rốt, hầm rượu vang...Theo đông y, thịt dê là một loại thực phẩm bổ dưỡng, giúp chữa được nhiều chứng bệnh.",
+                    "Thịt dê không độc, có tác dụng trợ dương, bổ huyết, chữa lao phổi, người gầy yếu. Nếu ăn liên tục 30 - 40g/ngày các món ăn chế biến từ thịt dê, có thể khỏi gầy yếu, đau lưng, dương sự kém, khí huyết hư tổn, ra nhiều mồ hôi. Đặc biệt, rất tốt cho phụ nữ gầy yếu, ít sữa sau khi sinh nở. thịt dê còn có tác dụng thúc đẩy lưu thông máu, tăng thân nhiệt, làm tăng các enzym giúp tiêu hóa thức ăn. Chứa nhiều chất dinh dưỡng phong phú nên thịt dê có ích trong việc chữa trị một số các bệnh làm suy giảm sinh lực của cơ thể như: lao, viêm phế quản, hen suyễn....",
+                    "Thịt dê bổ cho khả năng sinh lý, do dê đực là con vật có khả năng giao phối nhiều lần trong ngày, thế nên dân gian quan niệm dê là loại thức ăn tăng cường sức khoẻ; đặc biệt là khả năng tình dục",
+                    "Hầu như tất cả bộ phận của dê đều có thể sử dụng để làm thuốc: Dái dê (ngọc dương) và thận dê có tính bổ dương. Cao dê chữa bệnh đau lưng, tiết dê pha rượu giúp bổ huyết, chữa đau đầu, choáng váng. Trong dân gian, món ăn bồi bổ từ thịt dê có tác dụng chữa trị các chứng bệnh đau lưng mỏi gối, bổ thận tráng dương, ít tinh trùng, hoa mắt ù tai, lưng gối yếu, yếu sinh lý."
+                ],
+                "nutrition": {
+                    "Giá trị dinh dưỡng": "100g",
+                    "Calo (kcal)": "143",
+                    "Lipid": "3g",
+                    "Chất béo bão hoà": "0,9g",
+                    "Cholesterol": "75mg",
+                    "Natri": "86mg",
+                    "Kali": "405mg",
+                    "Cacbohydrat": "0g",
+                    "Chất xơ": "0g",
+                    "Đường": "0g",
+                    "Protein": "27g",
+                    "Vitamin C": "0mg",
+                    "Sắt": "3,7mg",
+                    "Vitamin B6": "0mg",
+                    "Magnesi": "0mg",
+                    "Calci": "17mg",
+                    "Vitamin D": "0IU",
+                    "Vitamin B12": "1,2µg"
+                },
+                "price": {
+                    "Sườn dê": "295.000 – 350.000 VND/kg",
+                    "Cần cổ dê": "220.000 - 250.000 VND/kg",
+                    "Đùi dê": "300.000 - 350.000 VND/kg",
+                    "Cật dê": "160.000 - 190.000 VND/kg",
+                    "Sườn dê rút xương": "360.0000 - 400.000 VND/kg",
+                    "Ngọc dương dê": "450.000 VND/kg"
+                }
+            }
+        ]
+    },
+    {
+        "type": "vegetable",
+        "data": [
+            {
+                "name": "Súp lơ",
+                "section": "Bông cải trắng hay còn gọi là súp lơ, hay su lơ, bắp su lơ, hoa lơ, cải hoa hay cải bông trắng là một loại cải ăn được, thuộc loài Brassica oleracea, họ Cải, mọc quanh năm, gieo giống bằng hạt. Phần sử dụng làm thực phẩm của súp lơ là toàn bộ phần hoa chưa nở, phần này rất mềm, xốp nên không chịu được mưa nắng.",
+                "benefit": [
+                    "Ăn nhiều rau thuộc họ rau cải như súp lơ được minh chứng là sẽ làm giảm nguy cơ ung thư phổi và ung thư đại trực tràng. Sulforaphane, chất làm cho súp lơ có vị hơi đắng là chất làm cho súp lơ có khả năng chống lại rất nhiều bệnh tật.",
+                    "Súp lơ không chỉ làm giảm cholesterol mà còn giúp tăng cường sức khỏe trái tim do có thể làm các mạch máu vững chắc.\nSulforaphane có trong súp lơ xanh có thể giúp ngăn chặn hoặc đảo ngược các tổn thương niêm mạc mạch máu. Một nghiên cứu cho thấy phức hợp vitamin B trong súp lơ có thể giúp sửa chữa và thậm chí đảo ngược ảnh hưởng của việc có quá nhiều homocystein trong cơ thể. Homocystein là một loại amino axit thường sẽ tăng lên trong cơ thể sau khi chúng ta ăn các loại thịt đỏ. Khi lượng homocystein tăng cao, bạn sẽ có nguy cơ cao mắc các bệnh mạch vành. Thêm súp lơ xanh vào bữa ăn có thể giúp ngăn chặn các bệnh liên quan đến tim mạch.",
+                    "Thiếu vitamin D là một vấn đề lớn, kể cả ở các nước đang phát triển như ở Mỹ. Mặc dù bản thân súp lơ xanh không chứa hàm lượng vitamin D cao, nhưng súp lơ có thể bù đắp những ảnh hưởng không mong muốn khi uống vitamin D với liều lớn. Súp lơ có sự kết hợp mạnh mẽ giữa vitamin A và vitamin K, do đó, có thể giữ quá trình chuyển hóa vitamin D luôn cân bằng. Do vậy, nếu bạn uống bổ sung vitamin D, hãy đảm bảo rằng bữa ăn của bạn có thêm súp lơ.",
+                    "Súp lơ xanh chứa rất nhiều chất chống oxy hóa, bao gồm cả vitamin C. Khi ăn những chất này dưới dạng tự nhiên (như trong hoa quả, rau xanh mà không phải là viên uống bổ sung), vitamin C có thể chống lại các tổn thương trên da do ánh nắng mặt trời và không khí ô nhiễm. Vitamin C cũng có thể giúp chống lại các nếp nhăn và cải thiện cấu trúc da nói chung.\nNếu bạn để ý, bạn sẽ thấy rằng các yếu tố môi trường và các yếu tố thông thường trong cuộc sống có ảnh hưởng rất lớn lên làn da của bạn, và có thể bạn sẽ cân nhắc đến việc ăn thêm nhiều súp lơ trong bữa ăn.",
+                    "Hợp chất có trong súp lơ xanh giúp ngăn chặn một loại enzyme phá hoại sụn khớp, có thể làm chậm và thậm chí ngăn ngừa bệnh viêm xương khớp, theo một nghiên cứu cụ thể tại Anh.",
+                    "Súp lơ là lựa chọn thông minh cho các bà nội trợ nếu muốn tăng cường sức đề kháng cho các thành viên trong gia đình. Bên cạnh đó, loại rau này còn một công dụng rất thần kỳ khác mà ít người biết đến, đó là hỗ trợ giảm cân.\nSúp lơ chứa nhiều vitamin A và vitamin C hơn bất cứ loại rau quả nào khác. Bên cạnh đó, lượng vitamin C trong súp lơ nhiều gấp ba lần trong trái cam. Khi ăn súp lơ, bạn nhanh chóng có cảm giác no bụng và sự thèm ăn cũng vì thế bớt đi. Nhờ vậy, cơ thể sẽ không còn nhu cầu nạp quá nhiều thức ăn gây ra béo phì.",
+                    "Nhiều nghiên cứu đã chỉ ra rằng, beta-carotene có trong bông cải xanh đặc biệt tốt cho sức khỏe của đôi mắt. Chúng giúp mắt chống lại căn bệnh thoái hóa điểm vàng và ngăn ngừa việc đục thủy tinh thể."
+                ],
+                "nutrition": {
+                    "Giá trị dinh dưỡng": "100g",
+                    "Calo (kcal)": "24",
+                    "Lipid": "0,3g",
+                    "Chất béo bão hoà": "0,1g",
+                    "Chất béo chuyển hoá": "0g",
+                    "Cholesterol": "0mg",
+                    "Natri": "30mg",
+                    "Kali": "299mg",
+                    "Cacbohydrat": "5g",
+                    "Chất xơ": "2g",
+                    "Đường": "1,9g",
+                    "Protein": "1,9g",
+                    "Vitamin C": "48,2mg",
+                    "Sắt": "0,4mg",
+                    "Vitamin B6": "0,2mg",
+                    "Magnesi": "15mg",
+                    "Calci": "22mg",
+                    "Vitamin D": "0IU",
+                    "Vitamin B12": "0µg"
+                },
+                "price": {
+                    "Súp lơ xanh Vinmart": "40.000 - 50.000 VND/kg",
+                    "Súp lơ xanh Đà lạt": "68.000 - 75.000 VND/kg"
+                }
+            },
+            {
+                "name": "Củ cải",
+                "section": "Cải củ là một loại củ được hình thành ở rễ do sự dư thừa của các chất dinh dưỡng được lưu trữ ở phần rễ của thực vật thuộc họ Cải, được thuần hóa ở châu Âu từ thời kỳ tiền Roman. Hiện nay cải củ được trồng và sử dụng trên khắp thế giới. Cải củ có nhiều thứ khác nhau, khác biệt về kích thước, màu sắc và mùa vụ.",
+                "benefit": [
+                    "Thành phần hợp chất chứa trong củ cải như phytochemical và anthocyanins có tác dụng trong việc chống lại các tác nhân gây ung thư. Hơn nữa, củ cải được biết đến với loại thực phẩm có hàm lượng vitamin C khá phong phú có tác dụng chống oxy hóa mạnh mẽ, giúp ngăn chặn được các tổn hại cũng như sự hoạt động của các gốc tự do. Do đó, củ cải có thể có vai trò tốt trong việc giúp ngăn ngừa ung thư.",
+                    "Thành phần dinh dưỡng của củ cải có chứa nhiều kali giúp duy trì sự cân bằng natri-kali trong cơ thể. Duy trì sự cân bằng này sẽ giúp cho huyết áp ổn định.",
+                    "Trong trường hợp bạn bị ho hoặc mắc bệnh cảm lạnh, bạn có thể sử dụng củ cải vào chế độ ăn hàng ngày nhằm giúp giảm các triệu chứng của các bệnh này. Củ cải có khả năng chống sung huyết, hình thành các chất nhầy có trong cổ họng. Hơn nữa, củ cải còn giúp tăng cường khả năng miễn dịch của cơ thể, giúp cơ thể chống lại các bệnh nhiễm trùng và dẫn đến cảm lạnh, ho.",
+                    "Củ cải được biết đến như loại thực phẩm có tác dụng thanh lọc cơ thể, loại bỏ độc tố. Gan và dạ dày được xem như một trong những bộ phận nhận nhiều lợi ích từ việc loại bỏ độc tố bằng cách sử dụng củ cải. Hàm lượng chất xơ, nước trong củ cải có thể giúp làm sạch đường ruột, đồng thời nước củ cải cũng có hàm lượng vitamin C khá phong phú. Ngoài ra, củ cải có khả năng hiệu quả trong việc kiểm sát các bệnh vàng da, với tác dụng của củ cải nó có khả năng điều chỉnh lượng bilirubin trong máu và làm tăng việc cung cấp oxy cho cơ thể. Khi đó, củ cải sẽ có vai trò giúp kiểm soát sự phá huỷ hồng cầu làm cho hàm lượng bilirubin trong máu tăng cao - cũng chính nguyên nhân gây bệnh vàng da.",
+                    "Táo bón, căn bệnh khá phổ biến đặc biệt ở trẻ em và người cao tuổi, những người ít vận động, ít luyện tập thể dục hay có chế độ ăn không lành mạnh chứa nhiều dầu mỡ, ít chất xơ. Củ cải sẽ giúp cải thiện những triệu chứng khó chịu này. Bởi vì thành phần chất xơ trong củ cải khá phong phú, giúp làm sạch các loại thức ăn, cặn bã bị kẹt trong ruột già và được tống ra ngoài... Hơn nữa, củ cải còn giúp tăng cường sự tiết dịch tiêu hoá và mật làm cho hệ thống tiêu hoá của cơ thể hoạt động hiệu quả nhất.",
+                    "Hàm lượng calo trong củ cải rất thấp. thêm vào đó hàm lượng chất xơ trong củ cải lại khá phong phú nên sẽ khiến cho những người muốn giảm cân có cảm giác nhanh no khi sử dụng loại thực phẩm này. Chẳng hạn, hàm lượng calo trong 100 gam củ cải có khoảng 16 calories do vậy bạn có thể thoải mái sử dụng món ăn từ củ cải vừa mang lại nhiều lợi ích cho sức khoẻ vừa giúp kiểm soát cân nặng hiệu quả",
+                    "Củ cải có đặc tính chống lại sung huyết vì thế củ cải sẽ rất tốt cho những bệnh nhân hen suyễn.",
+                    "Hàm lượng vitamin C và các chất chống oxy hóa trong củ cải khá phong phú, nên sử dụng củ cải trong bữa ăn hàng ngày giúp ngăn chặn tác hại của gốc tự do. Hơn nữa, củ cải tươi có thể đắp lên da vì nó có đặc tính làm sạch."
+                ],
+                "nutrition": {
+                    "Giá trị dinh dưỡng": "100g",
+                    "Calo (kcal)": "15",
+                    "Lipid": "0,1g",
+                    "Chất béo bão hoà": "0g",
+                    "Cholesterol": "0mg",
+                    "Natri": "39mg",
+                    "Kali": "233mg",
+                    "Cacbohydrat": "3,4g",
+                    "Chất xơ": "1,6g",
+                    "Đường": "1,9g",
+                    "Protein": "0,7g",
+                    "Vitamin C": "14,8mg",
+                    "Sắt": "0,3mg",
+                    "Vitamin B6": "0,1mg",
+                    "Magnesi": "10mg",
+                    "Calci": "25mg",
+                    "Vitamin D": "0IU",
+                    "Vitamin B12": "0µg"
+                },
+                "price": {
+                    "Củ cải trắng tại vườn": "10.000 - 12.000 VND/kg",
+                    "Củ cải trắng tại chợ": "20.000 - 22.000 VND/kg"
+                }
+            },
+            {
+                "name": "Xà lách",
+                "section": "Xà lách hay còn gọi cải bèo, cải tai bèo là loài thực vật có hoa thuộc họ Cúc được nhà thực vật L. mô tả khoa học lần đầu năm 1753. Nó thường được trồng làm rau ăn lá đặc biệt trong món xa lát, bánh mì kẹp, hăm-bơ-gơ và nhiều món ăn khác.",
+                "benefit": [
+                    ""
+                ],
+                "nutrition": {
+                    "Giá trị dinh dưỡng": "100g",
+                    "Calo (kcal)": "14",
+                    "Lipid": "0,2g",
+                    "Chất béo bão hoà": "0g",
+                    "Cholesterol": "0mg",
+                    "Natri": "28mg",
+                    "Kali": "194mg",
+                    "Cacbohydrat": "2,9g",
+                    "Chất xơ": "1,3g",
+                    "Đường": "0,8g",
+                    "Protein": "1,4g",
+                    "Vitamin C": "9,2mg",
+                    "Sắt": "0,9mg",
+                    "Vitamin B6": "0,1mg",
+                    "Magnesi": "13mg",
+                    "Calci": "36mg",
+                    "Vitamin D": "0IU",
+                    "Vitamin B12": "0µg"
+                },
+                "Xà lách mỹ": "35.000 VND/kg",
+                "Xà lách lô lô": "50.000 VND/kg",
+                "Xà lách cuộn tím đà lạt": "200.000 VND/kg",
+                "Xà lách rô men": "80.000 VND/kg"
+            }
+        ]
+    },
+    {
+        "type": "fruit",
+        "data": [
+            {
+                "name": "Táo tây",
+                "section": "Táo tây, còn gọi là bôm, là một loại quả ăn được từ cây táo tây. Táo tây được trồng trên khắp thế giới và là loài cây được trồng rộng rãi nhất trong chi Malus. Cây táo tây có nguồn gốc ở Trung Á, nơi tổ tiên của nó là loài táo dại Tân Cương sinh sống, hiện vẫn còn tồn tại cho đến ngày nay",
+                "benefit": [
+                    "Trong quả táo có nhiều chất xơ và nước. Trong một nghiên cứu, những người ăn táo trước bữa ăn cảm thấy no hơn so với người không ăn, do đó bữa ăn của họ có xu hướng ít hơn trung bình 200 calo so với những người không ăn. Nghiên cứu kéo dài 10 tuần khác ở 50 phụ nữ thừa cân, những người tham gia ăn táo đã giảm trung bình 1kg và ăn ít calo hơn so với người tiêu thụ hàm lượng calo và chất xơ tương tự.",
+                    "Tác dụng của quả táo có thể làm giảm 28% nguy cơ mắc bệnh tiểu đường tuýp 2 theo một số nghiên cứu. Điều này có thể do các polyphenol trong táo giúp ngăn ngừa tổn thương mô đối với các tế bào beta trong tuyến tụy.",
+                    "Một nhóm thuốc giảm đau có tên là thuốc chống viêm không steroid (NSAID) có thể làm tổn thương niêm mạc dạ dày của bạn. Nghiên cứu trên các ống nghiệm và chuột cho thấy chiết xuất quả táo giúp bảo vệ các tế bào dạ dày khỏi bị tổn thương do NSAID.",
+                    "Táo có chứa pectin. Đây là loại chất xơ hoạt động như một prebiotic; giúp nuôi các vi khuẩn có lợi trong hệ thống đường ruột. Ruột non không hấp thụ chất xơ trong quá trình tiêu hóa. Do đó, chất xơ sẽ đi đến đại tràng và thúc đẩy sự phát triển của vi khuẩn có lợi. Đồng thời giúp cơ thể hấp thụ các hợp chất có lợi khác.",
+                    "Tác dụng của táo giàu chất chống oxy hóa. Nó có thể giúp bảo vệ phổi của bạn tránh khỏi tổn thương oxy hóa. Một nghiên cứu lớn ở hơn 68.000 phụ nữ cho thấy những người ăn nhiều quả táo có thể giúp giảm nguy cơ mắc hen suyễn.",
+                    "Tác dụng của quả táo có thể làm giảm nguy cơ mắc bệnh tim. Điều này nhờ vào công dụng của táo chứa chất xơ hòa tan. Đây là loại chất xơ giúp giảm mức cholesterol trong máu. Đồng thời cũng chứa chất polyphenol chống oxy hóa; một trong những polyphenol này là epicatechin flavonoid có thể làm giảm huyết áp.",
+                    "Các nghiên cứu về ống nghiệm cho thấy, các hợp chất thực vật trong quả táo có thể giúp làm giảm nguy cơ ung thư. Ngoài ra, một nghiên cứu ở phụ nữ báo cáo rằng việc ăn táo có thể làm giảm tỷ lệ tử vong do ung thư thấp. Điều này được giải thích rằng; tác dụng của táo có đặc tính chống oxy hóa và chống viêm – khả năng chính trong việc ngăn ngừa ung thư.",
+                    "Hầu hết các nghiên cứu tập trung vào vỏ và thịt của quả táo. Tuy nhiên, nước táo có thể mang lại lợi ích cho sự suy giảm tinh thần liên quan đến tuổi. Trong các nghiên cứu trên động vật, nước táo làm giảm các dạng oxy phản ứng có hại (ROS) trong mô não và giảm thiểu sự suy giảm về mặt tinh thần."
+                ],
+                "nutrition": {
+                    "Giá trị dinh dưỡng": "100g",
+                    "Calo (kcal)": "52",
+                    "Lipid": "0,2g",
+                    "Chất béo bão hoà": "0g",
+                    "Cholesterol": "0mg",
+                    "Natri": "1mg",
+                    "Kali": "107mg",
+                    "Cacbohydrat": "14g",
+                    "Chất xơ": "2,4g",
+                    "Đường": "10g",
+                    "Protein": "0,3g",
+                    "Vitamin C": "4,6mg",
+                    "Sắt": "0,1mg",
+                    "Vitamin B6": "0mg",
+                    "Magnesi": "5mg",
+                    "Calci": "6mg",
+                    "Vitamin D": "0IU",
+                    "Vitamin B12": "0µg"
+                },
+                "Táo đường": "8.000 VND/kg",
+                "Táo đá": "35.000 VND/kg",
+                "Táo tàu": "70.000 - 90.000 VND/kg",
+                "Táo hồng mini": "35.000 - 40.000 VND/kg",
+                "Táo cherry": "55.000 - 70.000 VND/kg"
+            },
+            {
+                "name": "Chuối",
+                "section": "Chuối là tên gọi loại quả của các loài cây thuộc chi Musa; đây được coi là một trong các loại trái cây được ăn rộng rãi nhất. Những cây chuối có gốc từ vùng nhiệt đới ở Đông Nam Á và Úc. Ngày nay, chuối được trồng khắp vùng nhiệt đới. Chuối được trồng ở ít nhất 107 quốc gia",
+                "benefit": [
+                    "Chuối tốt cho tim mạch, giúp giảm căng thẳng. Đó là bởi vì loại trái cây nhiệt đới này rất giàu kali giúp điều hòa hệ tuần hoàn của bạn. Điều này giúp cơ thể bạn duy trì nhịp tim bình thường và có thể giúp giảm huyết áp.",
+                    "Theo Healthline, chất xơ trong chuối có liên quan đến việc cải thiện tiêu hóa. Chất xơ không hòa tan được tìm thấy trong chuối chưa chín là một loại prebiotic cung cấp vi khuẩn có lợi cho đường ruột của bạn. Chất pectin có trong chuối cũng giúp ngăn ngừa táo bón.",
+                    "Chất xơ trong chuối có thể giúp làm chậm quá trình tiêu hóa và hấp thụ carbs để lượng đường trong máu không tăng đột biến. Trong danh sách xếp loại thực phẩm theo mức độ đường và tốc độ làm tăng lượng đường trong máu của con người, chuối đứng ở vị trí xếp hạng từ thấp đến trung bình."
+                ],
+                "nutrition": {
+                    "Giá trị dinh dưỡng": "100g",
+                    "Calo (kcal)": "88",
+                    "Lipid": "0,3g",
+                    "Chất béo bão hoà": "0,1g",
+                    "Cholesterol": "0mg",
+                    "Natri": "1mg",
+                    "Kali": "358mg",
+                    "Cacbohydrat": "23g",
+                    "Chất xơ": "2,6g",
+                    "Đường": "12g",
+                    "Protein": "1,1g",
+                    "Vitamin C": "8,7mg",
+                    "Sắt": "0,3mg",
+                    "Vitamin B6": "0,4mg",
+                    "Magnesi": "27mg",
+                    "Calci": "5mg",
+                    "Vitamin D": "0IU",
+                    "Vitamin B12": "0µg"
+                },
+                "price": {}
+            },
+            {
+                "name": "Cam",
+                "section": "Cam là quả của nhiều loài cây có múi khác nhau thuộc họ Cửu lý hương; nó chủ yếu đề cập đến Citrus × sinensis, mà còn được gọi là cam ngọt, để phân biệt với Citrus × aurantium có liên quan, được gọi là cam chua. Cam ngọt sinh sản vô tính; giống cam ngọt phát sinh do đột biến. Cam là giống lai giữa bưởi và quýt.",
+                "benefit": [
+                    "Nước cam giống với nước dừa, nước chanh, nước ép dưa hấu… cũng là một loại nước vừa có hương vị thơm ngon, vừa cực kỳ tốt cho sức khỏe của trẻ em, người lớn, người già, đặc biệt là với phụ nữ mang thai.",
+                    "Hàm lượng vitamin C có trong quả cam có tác dụng kích thích cơ thể sản xuất các tế bào trắng, từ đó giúp tăng cường hệ miễn dịch để phòng tránh được các bệnh có liên quan đến nhiễm trùng đường hô hấp.",
+                    "Nhờ vào hàm lượng vitamin, chất xơ và kali có trong quả cam mà giúp phòng tránh, hạn chế nguy cơ đột quỵ, tăng huyết áp một cách hiệu quả. Một cốc nước cam còn giúp tăng cường lượng kali hàng ngày lên tới 14%, từ đó giúp làm giãn các mạch máu, hạn chế được tác dụng của natri và giúp hạ huyết áp một cách nhanh chóng.",
+                    "Quả cam được coi là nguồn cung cấp pectic tuyệt vời, một loại chất xơ hòa tan có khả năng làm giảm mức cholesterol xấu. Vỏ cam cũng chứa synephrine alkaloid giúp làm giảm quá trình sản xuất cholesterol từ gan.",
+                    "Ít ai biết rằng, quả cam còn có tác dụng cực kỳ tốt đối với hệ tiêu hóa, giúp tăng lượng axit dạ dày cần thiết. Hàm lượng chất xơ cao cũng giúp đẩy nhanh quá trình tiêu hóa, từ đó giúp khắc phục chứng táo bón cực kỳ hiệu quả.",
+                    "Vitamin C có trong quả cam cũng có tên gọi khác là axit ascorbic – một chất cần thiết cho quá trình tổng hợp collagen. Đồng thời, nó còn là chất chống oxy hóa tuyệt vời giúp ngăn ngừa tế bào bởi sự tấn công của các gốc tự do có hại.",
+                    "Quả cam cũng như các loại thực phẩm giàu vitamin A khác, đều giúp bảo vệ sức khỏe của mắt rất tốt. Thông thường, một cốc nước cam sẽ chứa đến 8% hàm lượng vitamin A khuyến cáo hàng ngày và nó giúp hỗ trợ chức năng của giác mạc, giúp phòng tránh các vấn đề có liên quan đến mắt do lão hóa.",
+                    "Quả cam còn chứa vitamin B9 (axit folic) thúc đẩy hoạt động, sự phát triển của não bộ. Nhờ đó sẽ giúp não bộ luôn khỏe mạnh, cải thiện trí nhớ hiệu quả. Với phụ nữ mang thai, cần bổ sung cam đều đặn vào thực đơn ăn uống để giúp thai nhi tránh được các vấn đề về rối loạn thần kinh.",
+                    "Chất chống oxy hóa và beta carotene trong quả cam giúp ngăn chặn quá trình lão hóa da. Các chất này cũng giúp bảo vệ da, giúp da tránh khỏi các gốc tự do."
+                ],
+                "nutrition": {
+                    "Giá trị dinh dưỡng": "100g",
+                    "Calo (kcal)": "47",
+                    "Lipid": "0,1g",
+                    "Chất béo bão hoà": "0g",
+                    "Cholesterol": "0mg",
+                    "Natri": "0mg",
+                    "Kali": "181mg",
+                    "Cacbohydrat": "12g",
+                    "Chất xơ": "2,4g",
+                    "Đường": "9g",
+                    "Protein": "0,9g",
+                    "Vitamin C": "53,2mg",
+                    "Sắt": "0,1mg",
+                    "Vitamin B6": "0,1mg",
+                    "Magnesi": "10mg",
+                    "Calci": "40mg",
+                    "Vitamin D": "0IU",
+                    "Vitamin B12": "0µg"
+                }
+            }
+        ]
+    }
+]
