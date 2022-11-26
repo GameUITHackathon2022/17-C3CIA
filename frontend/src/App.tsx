@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Account from './pages/Account';
 import Error from './pages/Error';
+import Discover from './pages/Discover';
 
 export default function App() {
     return (
@@ -18,6 +19,7 @@ export default function App() {
                         <Route index element={<Home />} />
                         <Route path="/home" element={<Home />} />
                         <Route path="/account" element={<Account />} />
+                        <Route path="/discover" element={<Discover />}></Route>
                         <Route path="*" element={<Error />} />
                     </Routes>
                 </div>

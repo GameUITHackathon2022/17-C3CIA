@@ -59,10 +59,10 @@ class CBottomNav extends Component<Props, State> {
                         Calculator
                     </Typography>
                 </IconButton>
-                <IconButton size='small' onClick={() => this.props.navigate("/explore")}>
+                <IconButton size='small' onClick={() => this.props.navigate("/discover")}>
                     <LibraryBooksIcon />
                     <Typography variant='caption'>
-                        Explore
+                        Discover
                     </Typography>
                 </IconButton>
                 <IconButton size='small' onClick={() => this.props.navigate("/account")}>
