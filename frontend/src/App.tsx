@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // Page
 import Account from './pages/Account';
-import Discover from './pages/Discover';
+// import Discover from './pages/Discover';
 import Error from './pages/Error';
 import Home from './pages/Home';
 import Login from './pages/Login';
@@ -42,7 +42,7 @@ export default function App() {
                                 <Route path="/account" element={<Account />} />
                                 <Route path="/login" element={<Login />} />
                                 <Route path="/register" element={<Register />} />
-                                <Route path="/discover" element={<Discover />} />
+                                {/* <Route path="/discover" element={<Discover />} /> */}
                                 <Route path="*" element={<Error />} />
                             </Routes>
                         </div>

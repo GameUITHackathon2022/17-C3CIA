@@ -3,6 +3,8 @@ import { trpc } from '../trpc';
 import React, { Component } from 'react'
 import { Container, styled, Box, Grid, Typography, Button, TextField } from '@mui/material'
 
+import { useNavigate, NavigateFunction } from 'react-router-dom';
+
 const Img = styled('img')(
     ({ theme }) => ({
         width: "100px",
@@ -67,24 +69,39 @@ export default function Account(props: Props) {
 
     // Output
     let [error, setError] = React.useState("");
+    const navigate = useNavigate()
 
     let login = async () => {
-        let res = await trpc.login.query({ username, password });
-        if (res) {
-            if (res.success) {
-                globalThis.localStorage.setItem("token", res.token!);
-                globalThis.sessionStorage.setItem("loggedIn", "1");
-                setLoggedIn(true);
-            } else {
-                setError(res.error!);
-            }
-        } else {
-            setError("Lỗi không xác định");
-        }
+        // let res = await trpc.login.query({ username, password });
+        // if (res) {
+        //     if (res.success) {
+        //         globalThis.localStorage.setItem("token", res.token!);
+        //         globalThis.sessionStorage.setItem("loggedIn", "1");
+        //         setLoggedIn(true);
+        //     } else {
+        //         setError(res.error!);
+        //     }
+        // } else {
+        //     setError("Lỗi không xác định");
+        // }
+
+        navigate("/login")
     }
+
 
     let logout = () => {
         sessionStorage.setItem("loggedIn", "");
+        setLoggedIn(false)
+    }
+
+    React.useEffect(() => {
+        if (!globalThis.sessionStorage.getItem("loggedIn")) {
+            navigate('/login')
+        }
+    }, [loggedIn])
+
+    let register = () => {
+        navigate("/register")
     }
 
     return loggedIn ?
@@ -140,28 +157,5 @@ export default function Account(props: Props) {
                     </Button>
                 </CenterItem>
             </Container>
-        ) : (
-            <Container>
-                <StyledForm onSubmit={() => login()}>
-                    <TextField
-                        required
-                        type="text"
-                        label="Username"
-                        value={username}
-                        onChange={(e) => setUsername(e.target.value)}
-                    />
-                    <TextField
-                        required
-                        type="password"
-                        label="Password"
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
-                    />
-                    <hr />
-                    <Button type='submit' variant='outlined' onClick={() => login()}>
-                        Login
-                    </Button>
-                </StyledForm>
-            </Container>
-        )
+        ) : null
 }

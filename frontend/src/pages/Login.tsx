@@ -22,7 +22,7 @@ class CLogin extends Component<Props, State> {
     state = {}
 
     login = () => {
-        window.sessionStorage.setItem("login", "1")
+        sessionStorage.setItem("loggedIn", "1");
         this.props.navigate("/account")
     }
 
@@ -39,6 +39,7 @@ class CLogin extends Component<Props, State> {
                         type="email"
                         label="email address"
                     />
+                    <hr />
                     <TextField
                         required
                         type="password"

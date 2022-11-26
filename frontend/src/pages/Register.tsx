@@ -34,6 +34,7 @@ class CRegister extends Component<Props, State> {
                         type="email"
                         label="email address"
                     />
+                    <hr />
                     <TextField
                         required
                         type="password"
