@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Canh súp lơ",
+        "ingredient": [
+            "1 cây súp lơ xanh",
+            "1 củ hành khô",
+            "hạt nêm và các gia vị thông thường"
+        ],
+        "nutrition": {
+            "Giá trị dinh dưỡng": "130g",
+            "Calo (kcal)": "55",
+            "Lipid": "0,5g",
+            "Chất béo bão hoà": "0,1g",
+            "Chất béo chuyển hoá": "0g",
+            "Cholesterol": "0mg",
+            "Natri": "32mg",
+            "Kali": "334mg",
+            "Cacbohydrat": "12g",
+            "Chất xơ": "3,2g",
+            "Đường": "5,7g",
+            "Protein": "2,7g",
+            "Vitamin C": "52,5mg",
+            "Sắt": "0,6mg",
+            "Vitamin B6": "0,3mg",
+            "Magnesi": "15mg",
+            "Calci": "27mg",
+            "Vitamin D": "0IU",
+            "Vitamin B12": "0µg"
+        }
+    },
+    {
+        "name": "Trứng ốp la",
+        "ingredient": [
+            "2 quả trứng",
+            "30gr bơ"
+        ],
+        "nutrition": {
+            "Giá trị dinh dưỡng": "100g",
+            "Calo (kcal)": "240",
+            "Lipid": "21g",
+            "Chất béo bão hoà": "6g",
+            "Cholesterol": "450mg",
+            "Natri": "223mg",
+            "Kali": "209mg",
+            "Cacbohydrat": "2g",
+            "Chất xơ": "0g",
+            "Đường": "1g",
+            "Protein": "20g",
+            "Vitamin C": "0mg",
+            "Sắt": "3mg",
+            "Vitamin B6": "0,6mg",
+            "Magnesi": "18mg",
+            "Calci": "88mg",
+            "Vitamin D": "120IU",
+            "Vitamin B12": "0µg"
+        }
+    },
+    {
+        "name": "Gà luộc",
+        "ingredient": [
+            "1 con gà (khoảng 1.5 – 2 kg)"
+        ],
+        "nutrition": {
+            "Giá trị dinh dưỡng": "100g",
+            "Calo (kcal)": "47",
+            "Lipid": "0,1g",
+            "Chất béo bão hoà": "0g",
+            "Cholesterol": "0mg",
+            "Natri": "0mg",
+            "Kali": "181mg",
+            "Cacbohydrat": "12g",
+            "Chất xơ": "2,4g",
+            "Đường": "9g",
+            "Protein": "0,9g",
+            "Vitamin C": "53,2mg",
+            "Sắt": "0,1mg",
+            "Vitamin B6": "0,1mg",
+            "Magnesi": "10mg",
+            "Calci": "40mg",
+            "Vitamin D": "0IU",
+            "Vitamin B12": "0µg"
+        }
+    }
+]
