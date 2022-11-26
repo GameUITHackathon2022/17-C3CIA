@@ -11,7 +11,8 @@ export default function setCalculatorPersons(database: MongoClient, t: TRPCBuild
                 month: z.number(),
                 day: z.number(),
                 height: z.number(),
-                weight: z.number()
+                weight: z.number(),
+                gender: z.enum(["MALE", "FEMALE"])
             })),
             token: z.string()
         }))
