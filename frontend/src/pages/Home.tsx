@@ -1,15 +1,26 @@
-import React, { Component } from 'react'
+import '../App.css'
+import Header from '../components/Header'
+import BottomNav from '../components/BottomNav'
+import Body from '../components/Body'
 
-type Props = {}
+import { Box, styled } from '@mui/material'
 
-type State = {}
+const Banner = styled(Box)(
+    ({ theme }) => ({
+        width: "90%",
+    })
+)
 
-export default class Home extends Component<Props, State> {
-    state = {}
+function App() {
+    return (
+        <div className="App">
+            <Header />
+            <Body>
 
-    render() {
-        return (
-            <div>Home</div>
-        )
-    }
+            </Body>
+            <BottomNav />
+        </div>
+    )
 }
+
+export default App

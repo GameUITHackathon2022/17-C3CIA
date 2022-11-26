@@ -5,6 +5,8 @@ import CalculateIcon from '@mui/icons-material/Calculate';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import PersonIcon from '@mui/icons-material/Person';
 
+import { useNavigate, NavigateFunction } from 'react-router-dom';
+
 const StyledNav = styled(Box)(
     ({ theme }) => ({
         display: "flex",
@@ -21,29 +23,40 @@ const StyledNav = styled(Box)(
 )
 
 
-type Props = {}
+type Props = {
+    navigate: NavigateFunction
+}
 
 type State = {}
 
-export default class BottomNav extends Component<Props, State> {
+class CBottomNav extends Component<Props, State> {
+    constructor(props: Props) {
+        super(props)
+    }
+
     state = {}
 
     render() {
         return (
             <StyledNav>
-                <IconButton size='small'>
+                <IconButton size='small' onClick={() => this.props.navigate("/home")}>
                     <HomeIcon />
                 </IconButton>
-                <IconButton size='small'>
+                <IconButton size='small' onClick={() => this.props.navigate("/calculator")}>
                     <CalculateIcon />
                 </IconButton>
-                <IconButton size='small'>
+                <IconButton size='small' onClick={() => this.props.navigate("/explore")}>
                     <LibraryBooksIcon />
                 </IconButton>
-                <IconButton size='small'>
+                <IconButton size='small' onClick={() => this.props.navigate("/account")}>
                     <PersonIcon />
                 </IconButton>
             </StyledNav>
         )
     }
+}
+
+export default function BottomNav(): JSX.Element {
+    const navigate = useNavigate()
+    return <CBottomNav navigate={navigate} />
 }
