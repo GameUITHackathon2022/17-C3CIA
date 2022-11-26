@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Box, styled, IconButton, Typography } from '@mui/material'
+import { Box, styled, IconButton as MuiIconButton, Typography } from '@mui/material'
 import HomeIcon from '@mui/icons-material/Home';
 import CalculateIcon from '@mui/icons-material/Calculate';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
@@ -22,6 +22,14 @@ const StyledNav = styled(Box)(
     })
 )
 
+const IconButton = styled(MuiIconButton)(
+    ({ theme }) => ({
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+        alignItems: 'center'
+    })
+)
 
 type Props = {
     navigate: NavigateFunction
@@ -41,15 +49,27 @@ class CBottomNav extends Component<Props, State> {
             <StyledNav>
                 <IconButton size='small' onClick={() => this.props.navigate("/home")}>
                     <HomeIcon />
+                    <Typography variant='caption'>
+                        Home
+                    </Typography>
                 </IconButton>
                 <IconButton size='small' onClick={() => this.props.navigate("/calculator")}>
                     <CalculateIcon />
+                    <Typography variant='caption'>
+                        Calculator
+                    </Typography>
                 </IconButton>
                 <IconButton size='small' onClick={() => this.props.navigate("/explore")}>
                     <LibraryBooksIcon />
+                    <Typography variant='caption'>
+                        Explore
+                    </Typography>
                 </IconButton>
                 <IconButton size='small' onClick={() => this.props.navigate("/account")}>
                     <PersonIcon />
+                    <Typography variant='caption'>
+                        Account
+                    </Typography>
                 </IconButton>
             </StyledNav >
         )

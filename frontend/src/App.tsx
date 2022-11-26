@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // Page
 import Home from './pages/Home';
+import Account from './pages/Account';
 import Error from './pages/Error';
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
                     <Routes>
                         <Route index element={<Home />} />
                         <Route path="/home" element={<Home />} />
+                        <Route path="/account" element={<Account />} />
                         <Route path="*" element={<Error />} />
                     </Routes>
                 </div>
