@@ -1,0 +1,142 @@
+{
+    "meat": {
+        "beef": {
+            "section": "Thịt bò là một trong những thực phẩm có giá trị dinh dưỡng cao và có chứa nhiều amino acid cần thiết, các chất béo, chất khoáng, vitamin",
+            "benefit": [
+                "Protein trong thịt bò chính là một trong những nguồn dưỡng chất giúp cơ thể khỏe mạnh, bảo đảm cho xương chắc khỏe và phát triển các hormon có lợi cho cơ thể, giúp chuyển hóa và tổng hợp thức ăn, góp phần phục hồi cơ thể sau khi những hoạt động cường độ cao. Thịt bò, nhất là bắp bò rất giàu axit amonia, cao hơn cả so với bất kì loại thực phẩm nào khác, có tác dụng làm tăng cơ bắp, đặc biệt là tăng cường sức khỏe cơ thể.",
+                "Thịt bò có khoáng chất carnitine và nồng độ sarcosine (một chất có liên quan đến ung thư) rất thấp. Khoáng chất carnitin có trong các loại thịt màu đỏ như thịt bò rất cần thiết cho sự cân bằng của các hoạt động của tai. Carnitine được sử dụng chủ yếu để hỗ trợ quá trình chuyển hóa chất béo, chuỗi amino acid để giữ cho cơ thể được cân đối, các amino acid rất tốt trong việc tạo các cơ bắp.",
+                "Hàm lượng acid béo trong thịt bò thấp nhưng lại giàu axit linoleic tổng hợp, có hiệu quả chống lại các chất chống oxy hóa có khả năng phát tác khi tập các môn thể thao như cử tạ gây tổn thương mô. Chất béo có trong thịt bò rất giàu linoleic và palmiotelic, hai loại axit đặc biệt giúp con người chống lại căn bệnh ung thư, các loại vi rút và mầm bệnh.",
+                "Thịt bò cũng rất giàu sắt, kali, magiê và kẽm: Sắt là khoáng chất cần thiết cho máu, bổ sung lượng máu cho cơ thể và phòng tránh cơ thể bị thiếu máu. Mức độ kali thấp ức chế tổng hợp protein cũng như sản xuất hormone tăng trưởng, sẽ ảnh hưởng đến sự phát triển của cơ bắp. Magnesi và kẽm góp phần tổng hợp protein và chất chống oxy hóa để thúc đẩy tăng trưởng cơ bắp. Muối của axit glutamic và vitamin B6 và kẽm tương tác với nhau tăng cường hệ thống miễn dịch và quan trọng hơn có thể làm tăng hiệu quả của sự trao đổi chất insulin.",
+                "Thịt bò rất giàu vitamin B6: Thịt bò có chứa đủ vitamin B6 có thể giúp bạn xây dựng khả năng miễn dịch.",
+                "Thịt bò chứa nhiều vitamin B12, cần thiết cho các tế bào, nhất là các tế bào máu đỏ mang oxy đến các mô cơ. Vitamin B12 cũng thúc đẩy nhánh chuỗi amino acid chuyển hóa, do đó cung cấp năng lượng cần thiết cho cơ thể trong những hoạt động cường độ cao."
+            ],
+            "nutrition": {
+                "Giá trị dinh dưỡng": "100g",
+                "Calo (kcal)": "250",
+                "Lipid": "15g",
+                "Chất béo bão hoà": "6g",
+                "Chất béo chuyển hoá": "1,1g",
+                "Cholesterol": "90mg",
+                "Natri": "72mg",
+                "Kali": "318mg",
+                "Cacbohydrat": "0g",
+                "Chất xơ": "0g",
+                "Đường": "0g",
+                "Protein": "26g",
+                "Vitamin C": "0mg",
+                "Sắt": "2,6mg",
+                "Vitamin B6": "0.4mg",
+                "Magnesi": "21mg",
+                "Calci": "18mg",
+                "Vitamin D": "7IU",
+                "Vitamin B12": "2,6µg"
+            }
+        },
+        "pork": {
+            "section": "Thịt lợn hay thịt heo là thịt từ heo, là một loại thực phẩm rất phổ biến trên thế giới, tiêu thụ thịt heo của người Việt chiếm tới 73,3%, thịt gia cầm là 17,5% và chỉ 9,2% còn lại là thịt các loại, điều này xuất phát từ truyền thống ẩm thực của người Việt thường ăn thịt heo và thịt gà nhiều hơn các loại thịt khác.",
+            "benefit": [
+                "Thịt lợn chứa hàm lượng protein cao cùng nhiều vitamin và khoáng chất. Thịt lợn nạc là một thực phẩm tuyệt vời cho chế độ ăn uống lành mạnh. Nó chứa tất cả các amino acid thiết yếu cho sự tăng trưởng và duy trì cơ thể khỏe mạnh. Mỡ lợn đôi khi được sử dụng như là một chất béo trong nấu ăn. Giống như các loại thịt đỏ, thịt lợn chủ yếu gồm các chất béo bão hòa và chất béo không bão hòa với hàm lượng tương đương nhau.Vitamin B12 trong thịt lợn rất quan trọng cho sự hình thành máu và chức năng của não. Thiếu hụt vitamin B12 có thể gây thiếu máu và tổn hại đến tế bào thần kinh. Vitamin B6 quan trọng đối với sự hình thành của các tế bào máu đỏ.",
+                "Thịt lợn đặc biệt giàu thiamin, một trong những vitamin nhóm B đóng một vai trò thiết yếu trong các chức năng của cơ thể. Thịt lợn cũng chứa nhiều selenium, kẽm là chất cần thiết cho một bộ não và hệ thống miễn dịch khỏe mạnh.Creatine trong thịt là một nguồn năng lượng cho cơ bắp. Nhiều nghiên cứu chỉ ra rằng nó có thể cải thiện sự tăng trưởng và duy trì cơ bắp.Vitamin B3 rất quan trọng cho sự tăng trưởng và chuyển hóa. Phosphor cần thiết cho sự tăng trưởng và duy trì cơ thể khỏe mạnh.",
+                "Thịt lợn cũng được xem là một nguồn cung cấp sắt dồi dàoTaurine được tìm thấy trong cá và thịt, taurine là một amino acid chống oxy hóa, có vai trò quan trọng đối với tim và các chức năng cơ bắp.Carnosine là một chất rất quan trọng cho chức năng cơ bắp. Mức độ arnosine trong cơ bắp của con người liên quan tới việc giảm mệt mỏi và cải thiện hiệu suất lao động.Thịt lợn có chứa nhiều chất dinh dưỡng lành mạnh có lợi cho cơ bắp bao gồm ưtaurie, creatine, và beta-alanine. Beta-alanine là một amino acid, được sử dụng để sản xuất carnosine trong cơ thể."
+            ],
+            "nutrition": {
+                "Giá trị dinh dưỡng": "100g",
+                "Calo (kcal)": "242",
+                "Lipid": "14g",
+                "Chất béo bão hoà": "5g",
+                "Cholesterol": "80mg",
+                "Natri": "620mg",
+                "Kali": "423mg",
+                "Cacbohydrat": "0g",
+                "Chất xơ": "0g",
+                "Đường": "0g",
+                "Protein": "27g",
+                "Vitamin C": "0,6mg",
+                "Sắt": "0,9mg",
+                "Vitamin B6": "0,5mg",
+                "Magnesi": "28mg",
+                "Calci": "19mg",
+                "Vitamin D": "53IU",
+                "Vitamin B12": "0.7µg"
+            }
+        },
+        "chicken": {
+            "section": "Thịt gà là thực phẩm gia cầm phổ biến nhất trên thế giới. Do có chi phí thấp và dễ chăn nuôi hơn so với các động vật khác như trâu bò hoặc lợn, nên gà đã trở thành loại thực phẩm không thể thiếu trong ẩm thực của nhiều nền văn hóa trên thế giới, và thịt của chúng đã được biến tấu để phù hợp với khẩu vị của từng khu",
+            "benefit": [
+                "Thịt gà có nhiều phần nạc và tương đối ít mỡ, nên chứa một hàm lượng protein cao và đa dạng. Chính vì vậy, bổ sung các món ăn từ gà vào thực đơn hàng ngày sẽ mang lại cho người tiêu dùng nhiều lợi ích về sức khỏe, từ phát triển cơ bắp cho đến giảm cân hiệu quả. Ăn thịt gà có thể giúp mang tới một hàm răng và xương chắc khỏe. Bởi trong thịt gà có rất nhiều Phosphor – chất có lợi cho răng và xương. Ngoài ra, chất này còn góp phần đảm bảo các chức năng của các bộ phận như thận, gan, thần kinh trung ương,… giúp chúng hoạt động tốt hơn. Đây là một trong những thành phần chính có trong thịt gà. Khoáng chất này rất cần thiết trong việc trao đổi chất trong cơ thể. Nhờ đó, tuyến giáp được cải thiện tốt và hoạt động tốt hơn, giúp tăng cường hệ miễn dịch trong cơ thể. Ngoài ra, trong thịt gà còn chứa một hàm lượng amino acid được gọi là tryptophan. Chất này có tác dụng làm dịu hệ thần kinh căng thẳng sau một ngày làm việc vất vả, cũng như mang lại giấc ngủ ngon."
+            ],
+            "nutrition": {
+                "Giá trị dinh dưỡng": "100g",
+                "Calo (kcal)": "239",
+                "Lipid": "14g",
+                "Chất béo bão hoà": "3,8g",
+                "Cholesterol": "88mg",
+                "Natri": "82mg",
+                "Kali": "223mg",
+                "Cacbohydrat": "0g",
+                "Chất xơ": "0g",
+                "Đường": "0g",
+                "Protein": "27g",
+                "Vitamin C": "0mg",
+                "Sắt": "1,3mg",
+                "Vitamin B6": "0,4mg",
+                "Magnesi": "23mg",
+                "Calci": "15mg",
+                "Vitamin D": "2IU",
+                "Vitamin B12": "0,3µg"
+            }
+        },
+        "goat meat": {
+            "section": "Thịt dê là loại thịt thực phẩm từ loài dê nhà, đây là nguồn cung cấp thực phẩm quan trọng và phổ biến ở một số đất nước như Bangladesh, Nepal, Sri Lanka, Pakistan, Ấn Độ và một số vùng ở Việt Nam, thịt dê được cho là một loại thực phẩm bổ dưỡng và có công dụng trong việc tăng cường khả năng sinh lý.",
+            "benefit": [
+                "Thịt dê có mùi vị thơm ngon, có tác dụng bổ dưỡng, giữ ấm rất tốt, rất thích hợp ăn trong mùa lạnh Nhìn chung, thịt dê có tác dụng thúc đẩy lưu thông máu, tăng thân nhiệt, có ích trong chữa trị bệnh lao, viêm phế quản, hen suyễn. Các món ăn bổ dưỡng dễ chế biến như cháo, thịt dê hầm tỏi, thịt dê hầm cà rốt, hầm rượu vang...Theo đông y, thịt dê là một loại thực phẩm bổ dưỡng, giúp chữa được nhiều chứng bệnh."
+            ],
+            "nutrition": {
+                "Giá trị dinh dưỡng": "0g",
+                "Calo (kcal)": "0",
+                "Lipid": "0g",
+                "Chất béo bão hoà": "0g",
+                "Chất béo chuyển hoá": "0g",
+                "Cholesterol": "0mg",
+                "Natri": "0mg",
+                "Kali": "0mg",
+                "Cacbohydrat": "0g",
+                "Chất xơ": "0g",
+                "Đường": "0g",
+                "Protein": "0g",
+                "Vitamin C": "0mg",
+                "Sắt": "0mg",
+                "Vitamin B6": "0mg",
+                "Magnesi": "0mg",
+                "Calci": "0mg",
+                "Vitamin D": "0IU",
+                "Vitamin B12": "0µg"
+            }
+        }
+    },
+    "example": {
+        "section": "",
+        "benefit": [],
+        "nutrition": {
+            "Giá trị dinh dưỡng": "0g",
+            "Calo (kcal)": "0",
+            "Lipid": "0g",
+            "Chất béo bão hoà": "0g",
+            "Chất béo chuyển hoá": "0g",
+            "Cholesterol": "0mg",
+            "Natri": "0mg",
+            "Kali": "0mg",
+            "Cacbohydrat": "0g",
+            "Chất xơ": "0g",
+            "Đường": "0g",
+            "Protein": "0g",
+            "Vitamin C": "0mg",
+            "Sắt": "0mg",
+            "Vitamin B6": "0mg",
+            "Magnesi": "0mg",
+            "Calci": "0mg",
+            "Vitamin D": "0IU",
+            "Vitamin B12": "0µg"
+        }
+    }
+}
