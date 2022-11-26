@@ -333,7 +333,12 @@
                     "Vitamin D": "0IU",
                     "Vitamin B12": "0µg"
                 },
-                "price": {}
+                "price": {
+                    "Chuối miền Tây": "5.000 VND/kg",
+                    "Chuối sáp": "10.000 - 11.000 VND/kg",
+                    "Chuối cau": "9.000 - 10.000 VND/kg",
+                    "Chuối sứ từ": "7.500 - 8.000 VND/kg"
+                }
             },
             {
                 "name": "Cam",
@@ -368,6 +373,11 @@
                     "Calci": "40mg",
                     "Vitamin D": "0IU",
                     "Vitamin B12": "0µg"
+                },
+                "price": {
+                    "Cam canh": "50.000 VND/kg",
+                    "Cam vinh": "35.000 - 50.000 VND/kg",
+                    "Cam sành": "35.000 - 45.000 VND/kg"
                 }
             }
         ]
