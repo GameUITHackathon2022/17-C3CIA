@@ -1,7 +1,5 @@
 # Project FoodSave
 
-*WIP btw*
-
 Project FoodSave là webapp để giúp người dùng giảm thiểu tối đa lượng thức ăn bị thừa (do nấu quá nhiều), vì thức ăn thừa bị thải ra môi trường cũng là một trong những nguyên nhân gây ra ô nhiễm môi trường.
 
 Project này được chia làm 2 phần: *Frontend* và *Backend* (as usual).
@@ -11,7 +9,7 @@ Project này được chia làm 2 phần: *Frontend* và *Backend* (as usual).
 Frontend được viết bằng React + Typescript, và được bundle lại thành web bởi Vite. GUI được thiết kế dựa trên mẫu thiết kế Material UI (design của Google).
 
 Khi compile phần frontend, máy compile phải cài các dependency sau:
-- Node.js (>=16), đi kèm đó là `npm`
+- Node.js (>=18), đi kèm đó là `npm`
 
 Hướng dẫn sử dụng:
 ```bash
@@ -30,7 +28,22 @@ npm run build
 
 ## Backend
 
-**WIP!**
+Backend được viết bằng Typescript, và sẽ giao tiếp với Frontend thông qua REST API (sử dụng tRPC, bằng cách này sẽ giúp cho kiểu dữ liệu được đảm bảo)
+
+Khi chạy phần backend, cần phải có:
+- MongoDB server
+- Node.js (>=18)
+
+Hướng dẫn sử dụng (nhớ cấu hình file `.env` bằng cách copy `.env.example` sau đó điền):
+```bash
+cd backend
+
+# Cài đặt các JS dependency từ npm
+npm install
+
+# Nếu muốn chạy server, sử dụng lệnh sau:
+npm start
+```
 
 # Copyright
 
